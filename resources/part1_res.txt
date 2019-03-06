@@ -31,3 +31,5 @@ Support Vector Machine:
 https://ieeexplore.ieee.org/document/7375216
 
 https://pdfs.semanticscholar.org/bc17/d52b448100dbab9fa3c8529c0fa7c9922af0.pdf
+
+https://books.google.com/books?id=rD9RDgAAQBAJ&pg=PA102&lpg=PA102&dq=support+vector+machines+for+raga+classification&source=bl&ots=QStY94Foc4&sig=ACfU3U1NP_ecdZKVHIncZyW_AT1RPSuGnA&hl=en&sa=X&ved=2ahUKEwiCrvW-vOzgAhXiJTQIHXZKDugQ6AEwCXoECAEQAQ#v=onepage&q=support%20vector%20machines%20for%20raga%20classification&f=false
