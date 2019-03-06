@@ -26,6 +26,13 @@ Part 1: Classification of Indian Ragas
 	- CNN Architecture Search
 		- Genetic Algorithm 
 		- Reinforcement Learning 
+
+- Making and Evaluation of Software Artifact 
+
+	- Curating the Training Dataset 
+	- Building the Optimized CNN Models
+	- Testing [Validation Methods] 
+	- Performance Metrics and Assessment 
 	
 Part 2: Algorithmic Music Generation with Indian Ragas 
 
