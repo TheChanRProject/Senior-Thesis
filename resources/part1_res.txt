@@ -42,4 +42,8 @@ https://www.semanticscholar.org/paper/Automatic-Raaga-Identification-System-for-
 
 https://www.researchgate.net/publication/228973824_Hidden_Markov_Model_based_Recognition_of_Musical_Pattern_in_South_Indian_Classical_Music
 
-http://shodhganga.inflibnet.ac.in/bitstream/10603/146945/13/13_chapter%205.pdf
+http://shodhganga.inflibnet.ac.in/bitstream/10603/146945/13/13_chapter%205.pdf 
+
+Artificial Neural Network: 
+
+https://pdfs.semanticscholar.org/7bb7/a2609d3b55ac59da9f38350a68290339a0db.pdf
