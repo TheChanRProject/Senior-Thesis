@@ -9,3 +9,5 @@ https://pdfs.semanticscholar.org/e310/7f6b766c26208b8a358e91d86dbfc03b581b.pdf
 https://github.com/TheAlgorithms/Python/tree/master/searches
 
 https://www.cs.princeton.edu/courses/archive/fall12/cos226/lectures/31ElementarySymbolTables+32BinarySearchTrees-2x2.pdf
+
+https://www.sen.uni-konstanz.de/research/research/tools/k-star-algorithm/
