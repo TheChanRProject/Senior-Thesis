@@ -41,3 +41,5 @@ Hidden Markov Model:
 https://www.semanticscholar.org/paper/Automatic-Raaga-Identification-System-for-Carnatic-Rao-Sudha/9c45c10d067fd3061b00c54ca6b01195cb0196e6
 
 https://www.researchgate.net/publication/228973824_Hidden_Markov_Model_based_Recognition_of_Musical_Pattern_in_South_Indian_Classical_Music
+
+http://shodhganga.inflibnet.ac.in/bitstream/10603/146945/13/13_chapter%205.pdf
