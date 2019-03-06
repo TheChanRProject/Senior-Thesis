@@ -10,4 +10,9 @@ https://github.com/TheAlgorithms/Python/tree/master/searches
 
 https://www.cs.princeton.edu/courses/archive/fall12/cos226/lectures/31ElementarySymbolTables+32BinarySearchTrees-2x2.pdf
 
-https://www.sen.uni-konstanz.de/research/research/tools/k-star-algorithm/
+https://www.sen.uni-konstanz.de/research/research/tools/k-star-algorithm/ 
+
+Random Forest: 
+
+https://sites.northwestern.edu/msia/2018/02/09/dj-random-forest-song-recommendations-through-machine-learning/ 
+
