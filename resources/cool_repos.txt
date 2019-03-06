@@ -3,3 +3,5 @@
 2. https://github.com/jsalbert/Music-Genre-Classification-with-Deep-Learning
 
 3. https://github.com/meetshah1995/crnn-music-genre-classification
+
+4. https://machinelearningmastery.com/use-different-batch-sizes-training-predicting-python-keras/
