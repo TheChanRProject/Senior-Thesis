@@ -24,4 +24,8 @@ https://medium.com/mlreview/spotify-analyzing-and-predicting-songs-58827a0fa42b
 
 https://www.accentsjournals.org/PaperDirectory/Journal/IJATEE/2017/4/2.pdf
 
-https://pdfs.semanticscholar.org/cb28/ff6d79e8c9849cae1a6c6b3eacc72894ca43.pdf
+https://pdfs.semanticscholar.org/cb28/ff6d79e8c9849cae1a6c6b3eacc72894ca43.pdf 
+
+Support Vector Machine: 
+
+https://ieeexplore.ieee.org/document/7375216
