@@ -1,3 +1,5 @@
 1. https://github.com/Hguimaraes/gtzan.keras
 
 2. https://github.com/jsalbert/Music-Genre-Classification-with-Deep-Learning
+
+3. https://github.com/meetshah1995/crnn-music-genre-classification
