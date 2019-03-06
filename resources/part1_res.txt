@@ -93,3 +93,5 @@ Extra:
 1. https://machinelearningmastery.com/use-different-batch-sizes-training-predicting-python-keras/
 
 2. http://compmusic.upf.edu/system/files/static_files/Ross-et-al-ISMIR-2017.pdf 
+
+3. https://openreview.net/pdf?id=HJz9K7kJcX
