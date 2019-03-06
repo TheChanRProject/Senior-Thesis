@@ -2,6 +2,8 @@
 
 Repository for my senior thesis.
 
+Stack: Python, Tensorflow, Keras, Signal Processing Toolkits 
+
 Two Parts: 
 
 
