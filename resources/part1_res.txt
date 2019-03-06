@@ -1,1 +1,9 @@
 # Senior Thesis Part 1 Resources
+
+Literature Review Algorithms 
+
+K* Search: 
+
+https://pdfs.semanticscholar.org/e310/7f6b766c26208b8a358e91d86dbfc03b581b.pdf 
+
+https://github.com/TheAlgorithms/Python/tree/master/searches
