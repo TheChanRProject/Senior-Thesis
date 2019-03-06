@@ -19,3 +19,5 @@ https://sites.northwestern.edu/msia/2018/02/09/dj-random-forest-song-recommendat
 https://towardsdatascience.com/machine-learning-and-music-classification-a-content-based-filtering-approach-f2c4eb13bade
 
 https://medium.com/mlreview/spotify-analyzing-and-predicting-songs-58827a0fa42b
+
+https://www.accentsjournals.org/PaperDirectory/Journal/IJATEE/2017/4/2.pdf
