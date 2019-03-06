@@ -56,4 +56,6 @@ https://www.cse.iitk.ac.in/users/cs365/2015/_submissions/chahuja/poster.pdf
 
 Convolutional Neural Network: 
 
-https://www.researchgate.net/publication/327135889_Automatic_raga_identification_in_Indian_classical_music_using_the_Convolutional_Neural_Network
+https://www.researchgate.net/publication/327135889_Automatic_raga_identification_in_Indian_classical_music_using_the_Convolutional_Neural_Network 
+
+http://web2py.iiit.ac.in/research_centres/publications/download/inproceedings.pdf.8e7ed8602598fbb1.56696a6179323031344964656e74696679696e672e706466.pdf
