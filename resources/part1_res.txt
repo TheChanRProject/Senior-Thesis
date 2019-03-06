@@ -65,3 +65,5 @@ Hyperparameter Tuning of Convolutional Neural Networks:
 https://towardsdatascience.com/a-walkthrough-of-convolutional-neural-network-7f474f91d7bd 
 
 https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-ii-hyper-parameter-42efca01e5d7 
+
+https://arxiv.org/pdf/1807.07362.pdf
