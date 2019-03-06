@@ -85,3 +85,5 @@ https://towardsdatascience.com/everything-you-need-to-know-about-automl-and-neur
 https://www.ml4aad.org/automl/literature-on-neural-architecture-search/
 
 https://arxiv.org/pdf/1808.03818.pdf
+
+https://arxiv.org/pdf/1704.00764.pdf
