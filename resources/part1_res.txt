@@ -12,6 +12,8 @@ https://www.cs.princeton.edu/courses/archive/fall12/cos226/lectures/31Elementary
 
 https://www.sen.uni-konstanz.de/research/research/tools/k-star-algorithm/ 
 
+http://www.ijsrp.org/research-paper-1015/ijsrp-p46102.pdf
+
 Random Forest: 
 
 https://sites.northwestern.edu/msia/2018/02/09/dj-random-forest-song-recommendations-through-machine-learning/ 
