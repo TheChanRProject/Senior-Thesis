@@ -9,8 +9,11 @@ Two Parts:
 
 Part 1: Classification of Indian Ragas 
 
-- Literature Review
+- Introduction
+
 	- Background and Scope of Ragas and Their Classification
+
+- Literature Review
 	- Data Processing and Feature Selection / Engineering
 	- Random Forests
 	- Support Vector Machines
