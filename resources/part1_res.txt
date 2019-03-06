@@ -52,4 +52,8 @@ https://www.researchgate.net/publication/283676987_Raga_Classification_for_Carna
 
 https://ieeexplore.ieee.org/document/8276040
 
-https://www.cse.iitk.ac.in/users/cs365/2015/_submissions/chahuja/poster.pdf
+https://www.cse.iitk.ac.in/users/cs365/2015/_submissions/chahuja/poster.pdf  
+
+Convolutional Neural Network: 
+
+https://www.researchgate.net/publication/327135889_Automatic_raga_identification_in_Indian_classical_music_using_the_Convolutional_Neural_Network
