@@ -4,6 +4,3 @@
 
 3. https://github.com/meetshah1995/crnn-music-genre-classification
 
-4. https://machinelearningmastery.com/use-different-batch-sizes-training-predicting-python-keras/
-
-5. http://compmusic.upf.edu/system/files/static_files/Ross-et-al-ISMIR-2017.pdf
