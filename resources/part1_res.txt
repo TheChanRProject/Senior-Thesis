@@ -29,3 +29,5 @@ https://pdfs.semanticscholar.org/cb28/ff6d79e8c9849cae1a6c6b3eacc72894ca43.pdf
 Support Vector Machine: 
 
 https://ieeexplore.ieee.org/document/7375216
+
+https://pdfs.semanticscholar.org/bc17/d52b448100dbab9fa3c8529c0fa7c9922af0.pdf
