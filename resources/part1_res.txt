@@ -72,4 +72,9 @@ https://engineering.taboola.com/hitchhikers-guide-hyperparameter-tuning/
 
 https://www.researchgate.net/publication/320723116_Detection_of_Informal_Settlements_from_VHR_Images_Using_Convolutional_Neural_Networks/figures?lo=1&utm_source=google&utm_medium=organic
 
-https://www.coursera.org/learn/deep-neural-network
+https://www.coursera.org/learn/deep-neural-network 
+
+Neural Architecture Search: 
+
+https://openreview.net/forum?id=SySaJ0xCZ
+
