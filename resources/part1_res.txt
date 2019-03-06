@@ -67,3 +67,5 @@ https://towardsdatascience.com/a-walkthrough-of-convolutional-neural-network-7f4
 https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-ii-hyper-parameter-42efca01e5d7 
 
 https://arxiv.org/pdf/1807.07362.pdf
+
+https://engineering.taboola.com/hitchhikers-guide-hyperparameter-tuning/
