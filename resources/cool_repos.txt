@@ -4,3 +4,9 @@
 
 3. https://github.com/meetshah1995/crnn-music-genre-classification
 
+4. https://github.com/DhruvaKumar/raag-detection
+
+5. https://github.com/shashi-chilappagari/Melakarta
+
+6. https://github.com/madvn/Carnatic_FSM
+
