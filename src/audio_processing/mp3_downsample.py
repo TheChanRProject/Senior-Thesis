@@ -12,7 +12,7 @@ startMin = 1
 startSec = 30
 
 endMin = 2
-endSec = 30
+endSec = 00
 
 # Time to Milliseconds
 
