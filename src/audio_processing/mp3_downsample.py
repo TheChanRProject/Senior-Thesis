@@ -1,9 +1,12 @@
+import os
 from pydub import AudioSegment
 
-file_path = '~/music_files/originals/'
-file_name = 'pandit-hari-orig.mp3'
+cwd = os.getcwd()
+print(cwd)
+file_path = '/Users/rchatter/Desktop/DS/Python/Senior-Thesis/music_files/originals'
+file_name="/pandit-hari-orig.mp3"
 print(file_name[:-8])
-out_path = '~/music_files/samples/'
+out_path = '/Users/rchatter/Desktop/DS/Python/Senior-Thesis/music_files/samples'
 
 startMin = 1
 startSec = 30
