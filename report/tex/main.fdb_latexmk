@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553728515 "main.tex" "main.pdf" "main" 1553728517
+["pdflatex"] 1553728722 "main.tex" "main.pdf" "main" 1553728724
   "../images/university_1.png" 1553662984 68213 043d4c08045cb522daf842aac285f054 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -38,16 +38,16 @@
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "chapters/algorithm_summary/algorithms.tex" 1553727458 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/app-proof-of-concept/app.tex" 1553727536 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "chapters/appendix.tex" 1553728464 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "chapters/appendix.tex" 1553728710 10 3c684b180bbb475dceb509de20fb1bd7 ""
   "chapters/bibliography/bibliography.tex" 1553727578 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/classification-analysis/analysis.tex" 1553727516 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/data_preparation_processing/data_preparation_processing.tex" 1553727482 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/future_steps/future_steps.tex" 1553727568 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/introduction/introduction.tex" 1553661254 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/literature_review/literature_review.tex" 1553727398 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.aux" 1553728516 1412 ac6e0cda94378956fbbc85c9f54a0560 ""
-  "main.tex" 1553728512 1086 25bead28aea3a8718f1dcced57ce2249 ""
+  "main.aux" 1553728724 1412 8f7071b3c8c3099b89ded0f66d272808 ""
+  "main.tex" 1553728720 1076 3153037dbb77607576ac9f62c720b8de ""
   (generated)
-  "main.pdf"
   "main.aux"
+  "main.pdf"
   "main.log"
