@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 MAR 2019 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 MAR 2019 16:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -187,27 +187,25 @@ Chapter 8.
 
 ]
 Appendix A.
+(./chapters/appendix.tex) [9
 
-! LaTeX Error: File `chapters/appendix.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-./main.tex:41: Emergency stop.
-<read *> 
-         
-l.41 \input{chapters/appendix}
-                              ^^M
-*** (cannot \read from terminal in nonstop modes)
-
- 
+] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 1492 strings out of 492649
- 22323 string characters out of 6129622
+ 1496 strings out of 492649
+ 22385 string characters out of 6129622
  82273 words of memory out of 5000000
  5356 multiletter control sequences out of 15000+600000
  5756 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,25p,271b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
-./main.tex:41:  ==> Fatal error occurred, no output PDF file produced!
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr17.pfb>
+Output written on main.pdf (11 pages, 127735 bytes).
+PDF statistics:
+ 53 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
