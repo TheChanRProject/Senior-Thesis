@@ -11,3 +11,16 @@
 ._*.png
 ._*.jpg
 ._*.jpeg
+._*.flatSegNyas
+._*.pitch
+._*.taniSegKNN
+._*.tonic
+._*tonicFine
+.flatSegNyas
+.pitch
+.taniSegKNN
+.tonic
+.tonicFine
+._*.pitchSilIntrpPP
+.pitchSilIntrpPP
+.mp3
