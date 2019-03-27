@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553728321 "main.tex" "main.pdf" "main" 1553728323
+["pdflatex"] 1553728391 "main.tex" "main.pdf" "main" 1553728391
   "../images/university_1.png" 1553662984 68213 043d4c08045cb522daf842aac285f054 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -7,9 +7,6 @@
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1480098701 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1480098701 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1480098701 1124 6c73e740cf17375f03eec0ee63599741 ""
-  "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1480098733 32080 340ef9bf63678554ee606688e7b5339d ""
-  "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1480098733 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1480098733 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1480098815 7612 729a8cc22a1ee0029997c7f74717ae05 ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1480098815 7324 2310d1247db0114eb4726807c8837a0e ""
@@ -38,6 +35,7 @@
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "chapters/algorithm_summary/algorithms.tex" 1553727458 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/app-proof-of-concept/app.tex" 1553727536 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "chapters/appendix.tex" 0 -1 0 ""
   "chapters/bibliography/bibliography.tex" 1553727578 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/classification-analysis/analysis.tex" 1553727516 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/data_preparation_processing/data_preparation_processing.tex" 1553727482 0 d41d8cd98f00b204e9800998ecf8427e ""
@@ -45,8 +43,8 @@
   "chapters/introduction/introduction.tex" 1553661254 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/literature_review/literature_review.tex" 1553727398 0 d41d8cd98f00b204e9800998ecf8427e ""
   "main.aux" 1553728322 1266 b7f868efbf606db39747ff4292aac477 ""
-  "main.tex" 1553728320 1030 474ea96049c9a8a65cd77e9934c35a93 ""
+  "main.tex" 1553728390 1086 25bead28aea3a8718f1dcced57ce2249 ""
   (generated)
-  "main.pdf"
-  "main.aux"
   "main.log"
+  "main.aux"
+  "main.pdf"

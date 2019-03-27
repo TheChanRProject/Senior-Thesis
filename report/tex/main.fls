@@ -80,7 +80,3 @@ INPUT chapters/future_steps/future_steps.tex
 INPUT chapters/future_steps/future_steps.tex
 INPUT chapters/bibliography/bibliography.tex
 INPUT chapters/bibliography/bibliography.tex
-INPUT main.aux
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
