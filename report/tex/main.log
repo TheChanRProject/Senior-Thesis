@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 MAR 2019 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 MAR 2019 16:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -154,40 +154,41 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] [2{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../
 images/university_1.png>]
 Chapter 1.
-(./introduction/introduction.tex) [1
+(./chapters/introduction/introduction.tex) [1
 
 ]
 Chapter 2.
-(./literature_review/literature_review.tex) [2
+(./chapters/literature_review/literature_review.tex) [2
 
 ]
 Chapter 3.
-(./algorithm_summary/algorithms.tex) [3
+(./chapters/algorithm_summary/algorithms.tex) [3
 
 ]
 Chapter 4.
-(./data_preparation_processing/data_preparation_processing.tex) [4
+(./chapters/data_preparation_processing/data_preparation_processing.tex)
+[4
 
 ]
 Chapter 5.
-(./classification-analysis/analysis.tex) [5
+(./chapters/classification-analysis/analysis.tex) [5
 
 ]
 Chapter 6.
-(./app-proof-of-concept/app.tex) [6
+(./chapters/app-proof-of-concept/app.tex) [6
 
 ]
 Chapter 7.
-(./future_steps/future_steps.tex) [7
+(./chapters/future_steps/future_steps.tex) [7
 
 ]
 Chapter 8.
-(./bibliography/bibliography.tex) [8
+(./chapters/bibliography/bibliography.tex) [8
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  1493 strings out of 492649
- 22116 string characters out of 6129622
+ 22332 string characters out of 6129622
  82273 words of memory out of 5000000
  5356 multiletter control sequences out of 15000+600000
  5756 words of font info for 21 fonts, out of 8000000 for 9000
