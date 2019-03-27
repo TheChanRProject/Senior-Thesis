@@ -1,0 +1,10 @@
+._.gitignore
+._*.md
+.DS_Store
+._*.mp3
+._*.wav
+._*.py
+._*.ipynb
+._*.txt
+._*.tex
+._*.pdf 
