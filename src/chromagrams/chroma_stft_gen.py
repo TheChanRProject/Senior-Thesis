@@ -152,3 +152,39 @@ for j, chroma in enumerate(chromas):
     specshow(chroma, x_axis="time", y_axis="chroma", vmin=0, vmax=1)
     plt.title(f"Chromagram of Bhairav8_{j}")
     plt.savefig(f"data/chroma_files/bhairav-chromas/bhairav8/bhairav8_{j}.png")
+
+## Bhairav 9
+
+block_gen = sf.blocks('data/Hindustani/wav/Bhairav/bhairav9.wav', blocksize=2646000)
+rate = sf.info("data/Hindustani/wav/Bhairav/bhairav9.wav").samplerate
+info = sf.info("data/Hindustani/wav/Bhairav/bhairav9.wav")
+print(info)
+chromas = []
+
+for bl in block_gen:
+    y = np.mean(bl, axis=1)
+    chromas.append(chroma_stft(y, sr=rate))
+
+len(chromas)
+for j, chroma in enumerate(chromas):
+    specshow(chroma, x_axis="time", y_axis="chroma", vmin=0, vmax=1)
+    plt.title(f"Chromagram of Bhairav9_{j}")
+    plt.savefig(f"data/chroma_files/bhairav-chromas/bhairav9/bhairav9_{j}.png")
+
+## Bhairav 10
+
+block_gen = sf.blocks('data/Hindustani/wav/Bhairav/bhairav10.wav', blocksize=2646000)
+rate = sf.info("data/Hindustani/wav/Bhairav/bhairav10.wav").samplerate
+info = sf.info("data/Hindustani/wav/Bhairav/bhairav10.wav")
+print(info)
+chromas = []
+
+for bl in block_gen:
+    y = np.mean(bl, axis=1)
+    chromas.append(chroma_stft(y, sr=rate))
+
+len(chromas)
+for j, chroma in enumerate(chromas):
+    specshow(chroma, x_axis="time", y_axis="chroma", vmin=0, vmax=1)
+    plt.title(f"Chromagram of Bhairav10_{j}")
+    plt.savefig(f"data/chroma_files/bhairav-chromas/bhairav10/bhairav10_{j}.png")
