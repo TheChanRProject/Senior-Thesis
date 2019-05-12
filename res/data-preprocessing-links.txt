@@ -1,1 +1,2 @@
 https://www.kaggle.com/c/digit-recognizer/discussion/33384
+https://www.kaggle.com/vishwasgpai/guide-for-creating-cnn-model-using-csv-file
