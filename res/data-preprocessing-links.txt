@@ -1,2 +1,3 @@
 https://www.kaggle.com/c/digit-recognizer/discussion/33384
 https://www.kaggle.com/vishwasgpai/guide-for-creating-cnn-model-using-csv-file
+https://stackoverflow.com/questions/49070242/converting-images-to-csv-file-in-python
