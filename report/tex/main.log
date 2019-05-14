@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 00:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 00:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -97,44 +97,23 @@ Package color Info: Driver file: pdftex.def on input line 147.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-
-./main.tex:42: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 ...EGREE OF BACHELOR OF ARTS IN DATA SCIENCE}
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-Overfull \hbox (20.8604pt too wide) in paragraph at lines 42--13
-[]\OT1/cmr/bx/n/12 SUBMITTED TO PITZER COL-LEGE and CLARE-MONT GRAD-
- []
-
-
-Overfull \hbox (4.01083pt too wide) in paragraph at lines 42--13
-\OT1/cmr/bx/n/12 MONT GRAD-U-ATE UNI-VER-SITY PRO-FES-SOR DAVID BACH-
- []
-
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count97
 \scratchdimen=\dimen109
@@ -204,27 +183,25 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count103
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 43.
 
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 47.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 47.
-
-[1] (./gratitude/readers.tex) [1]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 51.
+(Font)              size <20.74> substituted on input line 47.
 
-(./chapters/introduction/introduction.tex [2
+(./chapters/introduction/introduction.tex [1
 
-] [3]) [4]
-(./chapters/ragas/ragas.tex [5
+] [2]) [3]
+(./chapters/ragas/ragas.tex [4
 
-] [6] [7]) [8] (./chapters/librosa/librosa.tex
-[9
+] [5] [6]) [7] (./chapters/librosa/librosa.tex
+[8
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -233,14 +210,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 10.
- [10] [11]
+ [9] [10]
 Overfull \hbox (2.88689pt too wide) in paragraph at lines 50--51
 \OT1/cmr/m/n/12 of Scho-erkhu-ber and Kla-puri [ref] is pro-vided, which pro-du
 ces logarithmically-
  []
 
-[12] [13] [14]
-<../images/stft-specgram.png, id=58, 422.57875pt x 282.05376pt>
+[11] [12] [13]
+<../images/stft-specgram.png, id=52, 422.57875pt x 282.05376pt>
 File: ../images/stft-specgram.png Graphic file (type png)
 <use ../images/stft-specgram.png>
 Package pdftex.def Info: ../images/stft-specgram.png  used on input line 69.
@@ -250,7 +227,7 @@ Overfull \hbox (32.57771pt too wide) in paragraph at lines 69--70
 [][] 
  []
 
-<../images/mel-spectrogram.png, id=60, 423.5825pt x 282.05376pt>
+<../images/mel-spectrogram.png, id=54, 423.5825pt x 282.05376pt>
 File: ../images/mel-spectrogram.png Graphic file (type png)
 <use ../images/mel-spectrogram.png>
 Package pdftex.def Info: ../images/mel-spectrogram.png  used on input line 73.
@@ -260,7 +237,7 @@ Overfull \hbox (33.58147pt too wide) in paragraph at lines 73--74
 [][] 
  []
 
-<../images/chroma-cqt.png, id=61, 404.51125pt x 282.05376pt>
+<../images/chroma-cqt.png, id=55, 404.51125pt x 282.05376pt>
 File: ../images/chroma-cqt.png Graphic file (type png)
 <use ../images/chroma-cqt.png>
 Package pdftex.def Info: ../images/chroma-cqt.png  used on input line 77.
@@ -270,7 +247,7 @@ Overfull \hbox (14.51025pt too wide) in paragraph at lines 77--78
 [][] 
  []
 
-<../images/tonnetz.png, id=62, 417.56pt x 283.0575pt>
+<../images/tonnetz.png, id=56, 417.56pt x 283.0575pt>
 File: ../images/tonnetz.png Graphic file (type png)
 <use ../images/tonnetz.png>
 Package pdftex.def Info: ../images/tonnetz.png  used on input line 81.
@@ -280,29 +257,29 @@ Overfull \hbox (27.55896pt too wide) in paragraph at lines 81--82
 [][] 
  []
 
-) [15 <../images/stft-specgram.png>] [16 <../images/mel-spectrogram.png>]
-[17 <../images/chroma-cqt.png>] [18 <../images/tonnetz.png>]
-(./chapters/background/background.tex) [19
+) [14 <../images/stft-specgram.png>] [15 <../images/mel-spectrogram.png>]
+[16 <../images/chroma-cqt.png>] [17 <../images/tonnetz.png>]
+(./chapters/background/background.tex) [18
 
 ]
-(./chapters/methodology/methodology.tex) [20
+(./chapters/methodology/methodology.tex) [19
 
 ] (./chapters/data/data.tex)
-[21
+[20
 
-] (./chapters/data_preparation_processing/data_preprocessing.tex) [22
-
-]
-(./chapters/classification-analysis/analysis.tex) [23
+] (./chapters/data_preparation_processing/data_preprocessing.tex) [21
 
 ]
-(./chapters/future_steps/future_steps.tex) [24
+(./chapters/classification-analysis/analysis.tex) [22
 
 ]
-(./chapters/bibliography/bibliography.tex) [25
+(./chapters/future_steps/future_steps.tex) [23
+
+]
+(./chapters/bibliography/bibliography.tex) [24
 
 ] (./chapters/appendix.tex)
-[26
+[25
 
 ] (./main.aux)
 
@@ -311,8 +288,8 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 3486 strings out of 492649
- 48756 string characters out of 6129622
+ 3482 strings out of 492649
+ 48695 string characters out of 6129622
  142164 words of memory out of 5000000
  7296 multiletter control sequences out of 15000+600000
  9583 words of font info for 34 fonts, out of 8000000 for 9000
@@ -323,10 +300,10 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
 usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (28 pages, 1332787 bytes).
+Output written on main.pdf (26 pages, 1330850 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

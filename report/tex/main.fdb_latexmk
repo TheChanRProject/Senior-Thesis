@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557817828 "main.tex" "main.pdf" "main" 1557817828
+["pdflatex"] 1557818427 "main.tex" "main.pdf" "main" 1557818429
   "../images/chroma-cqt.png" 1557814822 142083 7858304742dde5397d7ef31901e24307 ""
   "../images/mel-spectrogram.png" 1557817192 542518 76654bf6a54f08813d1bb504becb449f ""
   "../images/stft-specgram.png" 1557812950 587799 325d07cec0b4d4b90cfdceb76eb1c498 ""
@@ -68,10 +68,9 @@
   "chapters/librosa/librosa.tex" 1557817372 9436 167693325321e050fe88c0f501c78158 ""
   "chapters/methodology/methodology.tex" 1557804458 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/ragas/ragas.tex" 1557804098 5190 bfd8b5935999945616ee12daa9cf3b5b ""
-  "gratitude/readers.tex" 1557805770 1184 81d3b6f83ec27b3898d5da652889599b ""
-  "main.aux" 1557817378 499 ec7fb62d8318d8f50ddc560f6948e3cf ""
-  "main.tex" 1557817826 2190 bfd3e897cc712ca36d12e7b6e773dfa0 ""
+  "main.aux" 1557818428 499 dd2e6c6a68d87c1fea07bc66d0f12db2 ""
+  "main.tex" 1557818426 1855 28f0d6a01e2d61fd2d2eae92509cda10 ""
   (generated)
-  "main.pdf"
   "main.log"
+  "main.pdf"
   "main.aux"
