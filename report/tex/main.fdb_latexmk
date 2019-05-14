@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557809933 "main.tex" "main.pdf" "main" 1557809934
+["pdflatex"] 1557815608 "main.tex" "main.pdf" "main" 1557815609
   "../images/university_1.png" 1553662984 68213 043d4c08045cb522daf842aac285f054 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -63,13 +63,13 @@
   "chapters/data_preparation_processing/data_preprocessing.tex" 1557804490 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/future_steps/future_steps.tex" 1557804474 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/introduction/introduction.tex" 1557802488 4104 2c7c2151d6bfc9659364e46b39c51639 ""
-  "chapters/librosa/librosa.tex" 1557809932 7150 da4aeb7d62b874d2b7005880b0d1d2ee ""
+  "chapters/librosa/librosa.tex" 1557815606 7852 8ec0e63e646c9f59346da52f749e9b68 ""
   "chapters/methodology/methodology.tex" 1557804458 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/ragas/ragas.tex" 1557804098 5190 bfd8b5935999945616ee12daa9cf3b5b ""
   "gratitude/readers.tex" 1557805770 1184 81d3b6f83ec27b3898d5da652889599b ""
-  "main.aux" 1557809934 8 a94a2480d3289e625eea47cd1b285758 ""
+  "main.aux" 1557815608 8 a94a2480d3289e625eea47cd1b285758 ""
   "main.tex" 1557807062 1968 5523ef3f4be869075b237179132770f5 ""
   (generated)
+  "main.aux"
   "main.pdf"
   "main.log"
-  "main.aux"
