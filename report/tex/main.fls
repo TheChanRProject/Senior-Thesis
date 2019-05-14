@@ -26,6 +26,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/sectsty/sectsty.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/sectsty/sectsty.sty
 INPUT main.aux
 INPUT main.aux
 OUTPUT main.aux
@@ -65,6 +67,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT chapters/introduction/introduction.tex
 INPUT chapters/introduction/introduction.tex
