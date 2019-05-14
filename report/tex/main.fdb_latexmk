@@ -1,9 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1557818427 "main.tex" "main.pdf" "main" 1557818429
+["pdflatex"] 1557819025 "main.tex" "main.pdf" "main" 1557819027
   "../images/chroma-cqt.png" 1557814822 142083 7858304742dde5397d7ef31901e24307 ""
   "../images/mel-spectrogram.png" 1557817192 542518 76654bf6a54f08813d1bb504becb449f ""
   "../images/stft-specgram.png" 1557812950 587799 325d07cec0b4d4b90cfdceb76eb1c498 ""
   "../images/tonnetz.png" 1557816274 90611 c7b009385979ba778b4aeb7c33f54623 ""
+  "../images/waveplot.png" 1557818958 111470 e879e61eed92b3dfabf0c71cf7a9360c ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1480098701 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -65,12 +66,12 @@
   "chapters/data_preparation_processing/data_preprocessing.tex" 1557804490 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/future_steps/future_steps.tex" 1557804474 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/introduction/introduction.tex" 1557802488 4104 2c7c2151d6bfc9659364e46b39c51639 ""
-  "chapters/librosa/librosa.tex" 1557817372 9436 167693325321e050fe88c0f501c78158 ""
+  "chapters/librosa/librosa.tex" 1557819020 9533 e5d3917029eb2a169d2f02d01074e3c1 ""
   "chapters/methodology/methodology.tex" 1557804458 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/ragas/ragas.tex" 1557804098 5190 bfd8b5935999945616ee12daa9cf3b5b ""
-  "main.aux" 1557818428 499 dd2e6c6a68d87c1fea07bc66d0f12db2 ""
+  "main.aux" 1557819026 603 5ea9e5a7b52b3557687d5a0b91fb723c ""
   "main.tex" 1557818426 1855 28f0d6a01e2d61fd2d2eae92509cda10 ""
   (generated)
-  "main.log"
   "main.pdf"
+  "main.log"
   "main.aux"
