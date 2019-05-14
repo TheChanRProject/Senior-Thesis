@@ -100,6 +100,17 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT ../images/stft-specgram.png
+INPUT ../images/stft-specgram.png
+INPUT ../images/stft-specgram.png
+INPUT ../images/chroma-cqt.png
+INPUT ../images/chroma-cqt.png
+INPUT ../images/chroma-cqt.png
+INPUT ../images/tonnetz.png
+INPUT ../images/tonnetz.png
+INPUT ../images/tonnetz.png
+INPUT ../images/stft-specgram.png
+INPUT ../images/stft-specgram.png
 INPUT chapters/background/background.tex
 INPUT chapters/background/background.tex
 INPUT chapters/methodology/methodology.tex
