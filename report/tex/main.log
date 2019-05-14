@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 01:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 01:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -317,25 +317,65 @@ File: ../images/edge-fig-2.png Graphic file (type png)
 <use ../images/edge-fig-2.png>
 Package pdftex.def Info: ../images/edge-fig-2.png  used on input line 27.
 (pdftex.def)             Requested size: 291.33772pt x 179.16893pt.
-) [24 <../images/edge-fig-1.png> <../images/edge-fig-2.png>]
-(./chapters/methodology/methodology.tex) [25
+<../images/matrix-fig-3.png, id=99, 129.48375pt x 89.58469pt>
+File: ../images/matrix-fig-3.png Graphic file (type png)
+<use ../images/matrix-fig-3.png>
+Package pdftex.def Info: ../images/matrix-fig-3.png  used on input line 33.
+(pdftex.def)             Requested size: 129.48341pt x 89.58446pt.
+ [24 <../images/edge-fig-1.png> <../images/edge-fig-2.png>]
+<../images/mat-filter-fig-4.png, id=104, 262.73157pt x 114.4275pt>
+File: ../images/mat-filter-fig-4.png Graphic file (type png)
+<use ../images/mat-filter-fig-4.png>
+Package pdftex.def Info: ../images/mat-filter-fig-4.png  used on input line 39.
 
-] (./chapters/data/data.tex)
-[26
+(pdftex.def)             Requested size: 262.73091pt x 114.42722pt.
+<../images/mat-fig-5.png, id=105, 110.66344pt x 111.41624pt>
+File: ../images/mat-fig-5.png Graphic file (type png)
+<use ../images/mat-fig-5.png>
+Package pdftex.def Info: ../images/mat-fig-5.png  used on input line 45.
+(pdftex.def)             Requested size: 110.66315pt x 111.41597pt.
+ [25 <../images/matrix-fig-3.png> <../images/mat-filter-fig-4.png> <../images/m
+at-fig-5.png>]
+<../images/mat-fig-6.png, id=109, 110.66344pt x 111.41624pt>
+File: ../images/mat-fig-6.png Graphic file (type png)
+<use ../images/mat-fig-6.png>
+Package pdftex.def Info: ../images/mat-fig-6.png  used on input line 51.
+(pdftex.def)             Requested size: 110.66315pt x 111.41597pt.
+<../images/mat-fig-7.png, id=110, 83.5622pt x 56.46094pt>
+File: ../images/mat-fig-7.png Graphic file (type png)
+<use ../images/mat-fig-7.png>
+Package pdftex.def Info: ../images/mat-fig-7.png  used on input line 57.
+(pdftex.def)             Requested size: 83.56198pt x 56.46078pt.
+<../images/conv-fig-8.png, id=111, 506.6428pt x 269.50688pt>
+File: ../images/conv-fig-8.png Graphic file (type png)
+<use ../images/conv-fig-8.png>
+Package pdftex.def Info: ../images/conv-fig-8.png  used on input line 63.
+(pdftex.def)             Requested size: 506.64157pt x 269.50621pt.
 
-] (./chapters/data_preparation_processing/data_preprocessing.tex) [27
+Overfull \hbox (116.64157pt too wide) in paragraph at lines 63--64
+[][] 
+ []
+
+) [26 <../images/mat-fig-6.png> <../images/mat-fig-7.png>] [27 <../images/conv-
+fig-8.png>] (./chapters/methodology/methodology.tex) [28
 
 ]
-(./chapters/classification-analysis/analysis.tex) [28
+(./chapters/data/data.tex) [29
 
 ]
-(./chapters/future_steps/future_steps.tex) [29
+(./chapters/data_preparation_processing/data_preprocessing.tex) [30
 
 ]
-(./chapters/bibliography/bibliography.tex) [30
+(./chapters/classification-analysis/analysis.tex) [31
+
+]
+(./chapters/future_steps/future_steps.tex) [32
+
+]
+(./chapters/bibliography/bibliography.tex) [33
 
 ] (./chapters/appendix.tex)
-[31
+[34
 
 ] (./main.aux)
 
@@ -344,10 +384,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 3544 strings out of 492649
- 49903 string characters out of 6129622
+ 3574 strings out of 492649
+ 50702 string characters out of 6129622
  142164 words of memory out of 5000000
- 7344 multiletter control sequences out of 15000+600000
+ 7368 multiletter control sequences out of 15000+600000
  9583 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,40p,1762b,1255s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -357,10 +397,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (32 pages, 1567094 bytes).
+Output written on main.pdf (35 pages, 1699795 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

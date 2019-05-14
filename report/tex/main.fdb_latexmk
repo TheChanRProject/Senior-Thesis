@@ -1,8 +1,14 @@
 # Fdb version 3
-["pdflatex"] 1557823076 "main.tex" "main.pdf" "main" 1557823079
+["pdflatex"] 1557823451 "main.tex" "main.pdf" "main" 1557823454
   "../images/chroma-cqt.png" 1557814822 142083 7858304742dde5397d7ef31901e24307 ""
+  "../images/conv-fig-8.png" 1557818518 102238 595cd17ccb47ef69409caaf5232296b7 ""
   "../images/edge-fig-1.png" 1557818520 13911 ee1070e184ce286cfecbb7b9bd300cea ""
   "../images/edge-fig-2.png" 1557818526 36205 9678302863fb249f20e21f4b52d0fbb9 ""
+  "../images/mat-fig-5.png" 1557818524 22829 53cf00c47cdccb5400bb26dac160908c ""
+  "../images/mat-fig-6.png" 1557818526 29080 90dfe8f8371c330241c6b057894936d8 ""
+  "../images/mat-fig-7.png" 1557818528 3300 2c667a5004d6986ae29f1751ff448f23 ""
+  "../images/mat-filter-fig-4.png" 1557818532 12074 3fa629515170cf00012d22dacb0efd83 ""
+  "../images/matrix-fig-3.png" 1557818534 5037 66bd0051365649d21d9b573d8559a099 ""
   "../images/mel-spectrogram.png" 1557817192 542518 76654bf6a54f08813d1bb504becb449f ""
   "../images/stft-specgram.png" 1557812950 587799 325d07cec0b4d4b90cfdceb76eb1c498 ""
   "../images/tonnetz.png" 1557816274 90611 c7b009385979ba778b4aeb7c33f54623 ""
@@ -68,7 +74,7 @@
   "chapters/background/background.tex" 1557822356 5596 d5c7990fef558ccb1701ade547228dc0 ""
   "chapters/bibliography/bibliography.tex" 1557804564 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/classification-analysis/analysis.tex" 1557804516 43 28f162e8f41163d2e123c986348ca862 ""
-  "chapters/cnn/cnn.tex" 1557823076 1643 83101d44de538209751df35cdf4b244d ""
+  "chapters/cnn/cnn.tex" 1557823450 3548 88c0d309ab449c8173d3f6af4fa720f3 ""
   "chapters/data/data.tex" 1557804504 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/data_preparation_processing/data_preprocessing.tex" 1557804490 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/future_steps/future_steps.tex" 1557804474 43 28f162e8f41163d2e123c986348ca862 ""
@@ -76,9 +82,9 @@
   "chapters/librosa/librosa.tex" 1557819504 9491 bcfd42464d8fca76d29acfcee7ab85f3 ""
   "chapters/methodology/methodology.tex" 1557804458 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/ragas/ragas.tex" 1557804098 5190 bfd8b5935999945616ee12daa9cf3b5b ""
-  "main.aux" 1557823078 581 beab4ebe5c272d7ff387c1739ff9126c ""
+  "main.aux" 1557823452 581 beab4ebe5c272d7ff387c1739ff9126c ""
   "main.tex" 1557822516 1974 ec12c30a0805ea3820d4aae81b61b410 ""
   (generated)
   "main.aux"
-  "main.log"
   "main.pdf"
+  "main.log"
