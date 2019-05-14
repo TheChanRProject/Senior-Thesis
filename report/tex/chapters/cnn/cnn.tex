@@ -118,5 +118,31 @@ There are two common choices for padding.
 
 \begin{enumerate}
   \item Valid: No padding at all. If we are using valid padding, the output will be (n-f+1) X (n-f+1)
-  \item Same: Here, we apply padding so that the output size is the same as the input size, i.e., n+2p-f+1 = n ;therefore,  p = (f-1)/2 
+  \item Same: Here, we apply padding so that the output size is the same as the input size, i.e., n+2p-f+1 = n ;therefore,  p = (f-1)/2
 \end{enumerate}
+
+We now know how to use padded convolution. This way we don’t lose a lot of information and the image does not shrink either. It is also important to note that the ReLU function (Rectifier Linear Function) is applied during the kernel application step since images are often very non-linear and we want to ensure that convolution does not create something too linear. Hence applying the ReLU rectifier function helps to solve this problem.
+
+\begin{flushleft}
+  \textbf{Pooling or Subsampling}
+\end{flushleft}
+
+Pooling layers are generally used to reduce the size of the inputs and hence speed up the computation. Consider a 4 X 4 matrix as shown below:
+
+\includegraphics{mat-fig-11.png}
+
+Applying max pooling on this matrix will result in a 2 X 2 output:
+
+\includegraphics{max-pool-fig-12.png}
+
+It is called max pooling as for every consecutive 2 X 2 block, we take the maximum number. Here, we have applied a filter of size 2 and a stride of 2. These are the hyperparameters for the pooling layer. Apart from max pooling, we can also apply average pooling where, instead of taking the max of the numbers, we take their average. In summary, the hyperparameters for a pooling layer are:
+
+\begin{enumerate}
+  \item Filter size
+  \item Stride
+  \item Max or average pooling
+\end{enumerate}
+
+
+If the input of the pooling layer is nh X nw X nc, then the output will be:
+$$ \frac{(nh – f)}{s + 1} \times \frac{(nw – f)}{s + 1} \times nc $$
