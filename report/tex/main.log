@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 00:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 00:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -222,74 +222,80 @@ File: ../images/stft-specgram.png Graphic file (type png)
 <use ../images/stft-specgram.png>
 Package pdftex.def Info: ../images/stft-specgram.png  used on input line 69.
 (pdftex.def)             Requested size: 422.57771pt x 282.05305pt.
-
-Overfull \hbox (32.57771pt too wide) in paragraph at lines 69--70
-[][] 
- []
-
 <../images/mel-spectrogram.png, id=54, 423.5825pt x 282.05376pt>
 File: ../images/mel-spectrogram.png Graphic file (type png)
 <use ../images/mel-spectrogram.png>
-Package pdftex.def Info: ../images/mel-spectrogram.png  used on input line 73.
+Package pdftex.def Info: ../images/mel-spectrogram.png  used on input line 71.
 (pdftex.def)             Requested size: 423.58147pt x 282.05305pt.
 
-Overfull \hbox (33.58147pt too wide) in paragraph at lines 73--74
-[][] 
+Overfull \hbox (32.57771pt too wide) in paragraph at lines 69--72
+[][]
  []
+
+
+Overfull \hbox (33.58147pt too wide) in paragraph at lines 69--72
+[] 
+ []
+
+
+LaTeX Warning: Float too large for page by 62.43942pt on input line 72.
 
 <../images/chroma-cqt.png, id=55, 404.51125pt x 282.05376pt>
 File: ../images/chroma-cqt.png Graphic file (type png)
 <use ../images/chroma-cqt.png>
-Package pdftex.def Info: ../images/chroma-cqt.png  used on input line 77.
+Package pdftex.def Info: ../images/chroma-cqt.png  used on input line 75.
 (pdftex.def)             Requested size: 404.51025pt x 282.05305pt.
-
-Overfull \hbox (14.51025pt too wide) in paragraph at lines 77--78
-[][] 
- []
-
 <../images/tonnetz.png, id=56, 417.56pt x 283.0575pt>
 File: ../images/tonnetz.png Graphic file (type png)
 <use ../images/tonnetz.png>
-Package pdftex.def Info: ../images/tonnetz.png  used on input line 81.
+Package pdftex.def Info: ../images/tonnetz.png  used on input line 77.
 (pdftex.def)             Requested size: 417.55896pt x 283.0568pt.
 
-Overfull \hbox (27.55896pt too wide) in paragraph at lines 81--82
-[][] 
+Overfull \hbox (14.51025pt too wide) in paragraph at lines 75--78
+[][]
  []
+
+
+Overfull \hbox (27.55896pt too wide) in paragraph at lines 75--78
+[] 
+ []
+
+
+LaTeX Warning: Float too large for page by 63.44316pt on input line 78.
 
 <../images/waveplot.png, id=57, 427.5975pt x 282.05376pt>
 File: ../images/waveplot.png Graphic file (type png)
 <use ../images/waveplot.png>
-Package pdftex.def Info: ../images/waveplot.png  used on input line 85.
+Package pdftex.def Info: ../images/waveplot.png  used on input line 81.
 (pdftex.def)             Requested size: 427.59645pt x 282.05305pt.
 
-Overfull \hbox (37.59645pt too wide) in paragraph at lines 85--86
+Overfull \hbox (37.59645pt too wide) in paragraph at lines 81--82
 [][] 
  []
 
-) [14 <../images/stft-specgram.png>] [15 <../images/mel-spectrogram.png>]
-[16 <../images/chroma-cqt.png>] [17 <../images/tonnetz.png>] [18 <../images/wav
-eplot.png>] (./chapters/background/background.tex) [19
+) [14] [15 <../images/stft-specgram.png> <../images/mel-spectrogram.png>]
+[16 <../images/chroma-cqt.png> <../images/tonnetz.png>] [17 <../images/waveplot
+.png>] (./chapters/background/background.tex) [18
 
 ]
-(./chapters/methodology/methodology.tex) [20
+(./chapters/methodology/methodology.tex) [19
 
 ] (./chapters/data/data.tex)
-[21
+[20
 
-] (./chapters/data_preparation_processing/data_preprocessing.tex) [22
-
-]
-(./chapters/classification-analysis/analysis.tex) [23
+] (./chapters/data_preparation_processing/data_preprocessing.tex) [21
 
 ]
-(./chapters/future_steps/future_steps.tex) [24
+(./chapters/classification-analysis/analysis.tex) [22
 
 ]
-(./chapters/bibliography/bibliography.tex) [25
+(./chapters/future_steps/future_steps.tex) [23
+
+]
+(./chapters/bibliography/bibliography.tex) [24
 
 ] (./chapters/appendix.tex)
-[26
+[25
 
 ] (./main.aux)
 
@@ -310,10 +316,10 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
 usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (27 pages, 1402821 bytes).
+Output written on main.pdf (26 pages, 1402526 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
