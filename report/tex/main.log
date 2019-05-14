@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2019 23:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 00:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -233,37 +233,39 @@ Overfull \hbox (32.57771pt too wide) in paragraph at lines 69--70
 [][] 
  []
 
-<../images/chroma-cqt.png, id=62, 404.51125pt x 282.05376pt>
+<../images/mel-spectrogram.png, id=62, 423.5825pt x 282.05376pt>
+File: ../images/mel-spectrogram.png Graphic file (type png)
+<use ../images/mel-spectrogram.png>
+Package pdftex.def Info: ../images/mel-spectrogram.png  used on input line 73.
+(pdftex.def)             Requested size: 423.58147pt x 282.05305pt.
+
+Overfull \hbox (33.58147pt too wide) in paragraph at lines 73--74
+[][] 
+ []
+
+<../images/chroma-cqt.png, id=63, 404.51125pt x 282.05376pt>
 File: ../images/chroma-cqt.png Graphic file (type png)
 <use ../images/chroma-cqt.png>
-Package pdftex.def Info: ../images/chroma-cqt.png  used on input line 73.
+Package pdftex.def Info: ../images/chroma-cqt.png  used on input line 77.
 (pdftex.def)             Requested size: 404.51025pt x 282.05305pt.
 
-Overfull \hbox (14.51025pt too wide) in paragraph at lines 73--74
+Overfull \hbox (14.51025pt too wide) in paragraph at lines 77--78
 [][] 
  []
 
-<../images/tonnetz.png, id=63, 417.56pt x 283.0575pt>
+<../images/tonnetz.png, id=64, 417.56pt x 283.0575pt>
 File: ../images/tonnetz.png Graphic file (type png)
 <use ../images/tonnetz.png>
-Package pdftex.def Info: ../images/tonnetz.png  used on input line 77.
+Package pdftex.def Info: ../images/tonnetz.png  used on input line 81.
 (pdftex.def)             Requested size: 417.55896pt x 283.0568pt.
 
-Overfull \hbox (27.55896pt too wide) in paragraph at lines 77--78
+Overfull \hbox (27.55896pt too wide) in paragraph at lines 81--82
 [][] 
  []
 
-File: ../images/stft-specgram.png Graphic file (type png)
-<use ../images/stft-specgram.png>
-Package pdftex.def Info: ../images/stft-specgram.png  used on input line 81.
-(pdftex.def)             Requested size: 422.57771pt x 282.05305pt.
-
-Overfull \hbox (32.57771pt too wide) in paragraph at lines 81--82
-[][] 
- []
-
-) [15 <../images/stft-specgram.png>] [16 <../images/chroma-cqt.png>] [17 <../im
-ages/tonnetz.png>] [18] (./chapters/background/background.tex) [19
+) [15 <../images/stft-specgram.png>] [16 <../images/mel-spectrogram.png>]
+[17 <../images/chroma-cqt.png>] [18 <../images/tonnetz.png>]
+(./chapters/background/background.tex) [19
 
 ]
 (./chapters/methodology/methodology.tex) [20
@@ -292,10 +294,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 3485 strings out of 492649
- 48724 string characters out of 6129622
+ 3490 strings out of 492649
+ 48878 string characters out of 6129622
  142164 words of memory out of 5000000
- 7295 multiletter control sequences out of 15000+600000
+ 7299 multiletter control sequences out of 15000+600000
  9276 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,40p,1762b,1255s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -305,10 +307,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (28 pages, 921699 bytes).
+Output written on main.pdf (28 pages, 1425592 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

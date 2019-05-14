@@ -65,18 +65,18 @@ The display module provides simple interfaces to visually render audio data thro
 Mono signals are rendered symmetrically about the horizontal axis; stereo signals are rendered with the left-channel’s amplitude above the axis and the right-channel’s below. An example of waveplot is depicted in Figure 2 (top). The second function, display.specshow wraps matplotlib’s imshow function with default settings (origin and aspect) adapted to the expected defaults for visualizing spectrograms. Additionally, specshow dynamically selects appropriate colormaps (binary, sequential, or diverging) from the data type and range [ref]. Finally, specshow provides a variety of acoustically relevant axis labeling and scaling parameters. Examples of specshow output are displayed in Figures 1,2,3, and 4.
 
 \begin{figure}
-  \caption{Specshow Outputs for STFT, Mel Spectrogram, Chroma\_CQT, and Tonnetz Representations}
+  \caption{Specshow Outputs for STFT Representation}
   \includegraphics{stft-specgram.png}
 \end{figure}
 \begin{figure}
-  \caption{Specshow Outputs for STFT, Mel Spectrogram, Chroma\_CQT, and Tonnetz Representations}
+  \caption{Specshow Outputs for Mel Spectrogram Representation}
+  \includegraphics{mel-spectrogram.png}
+\end{figure}
+\begin{figure}
+  \caption{Specshow Output for Chroma\_CQT Representation}
   \includegraphics{chroma-cqt.png}
 \end{figure}
 \begin{figure}
-  \caption{Specshow Outputs for STFT, Mel Spectrogram, Chroma\_CQT, and Tonnetz Representations}
+  \caption{Specshow Output for Tonnetz Representation}
   \includegraphics{tonnetz.png}
-\end{figure}
-\begin{figure}
-  \caption{Specshow Outputs for STFT, Mel Spectrogram, Chroma\_CQT, and Tonnetz Representations}
-  \includegraphics{stft-specgram.png}
 \end{figure}
