@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2019 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2019 20:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -167,30 +167,30 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <20> not available
 ] [2]) [3]
 (./chapters/ragas/ragas.tex [4
 
-] [5]) [6] (./chapters/librosa/librosa.tex)
-[7
+] [5]) [6] [7] (./chapters/librosa/librosa.tex)
+[8
 
-] (./chapters/background/background.tex) [8
+] (./chapters/background/background.tex) [9
 
 ]
-(./chapters/methodology/methodology.tex) [9
+(./chapters/methodology/methodology.tex) [10
 
 ] (./chapters/data/data.tex)
-[10
+[11
 
-] (./chapters/data_preparation_processing/data_preprocessing.tex) [11
-
-]
-(./chapters/classification-analysis/analysis.tex) [12
+] (./chapters/data_preparation_processing/data_preprocessing.tex) [12
 
 ]
-(./chapters/future_steps/future_steps.tex) [13
+(./chapters/classification-analysis/analysis.tex) [13
 
 ]
-(./chapters/bibliography/bibliography.tex) [14
+(./chapters/future_steps/future_steps.tex) [14
+
+]
+(./chapters/bibliography/bibliography.tex) [15
 
 ] (./chapters/appendix.tex)
-[15
+[16
 
 ] (./main.aux)
 
@@ -209,10 +209,10 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (17 pages, 142298 bytes).
+Output written on main.pdf (18 pages, 142546 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
