@@ -76,3 +76,47 @@ $$ [f*g](t) = \int_{0}^{t} f(\uptau) g(t - \uptau) \mathrm{d} \uptau $$
 A number of well-known filters or kernels have been used in prior work. Some common ones include Sharpen, Blue, Edge-Detect, or Edge-Enhance.
 
 \includegraphics{filters-fig-9.png}
+
+The Sobel filter puts a little bit more weight on the central pixels. Instead of using these filters, we can create our own as well and treat them as a parameter which the model will learn using backpropagation. In order to understand the next details of a CNN, let us take a look at the entire series of steps that happens on a single input image.
+\par
+\includegraphics{cnn-fig-10.png}
+
+It is important to note that a single image can generate many feature maps using different kernels. We do this so that different features are extracted out. This first step creates a convolutional layer consisting of many feature maps.
+\par
+\begin{flushleft}
+  \textbf{Padding in Convolution}
+\end{flushleft}
+
+We have seen that convolving an input of 6 X 6 dimension with a 3 X 3 filter results in 4 X 4 feature map. We can generalize it and say that if the input is n X n and the filter size is f X f, then the output size will be (n-f+1) X (n-f+1):
+\par
+\begin{itemize}
+  \item Input: n X n
+  \item Filter size: f X f
+  \item Output: (n-f+1) X (n-f+1)
+\end{itemize}
+
+There are two disadvantages to this approach:
+
+\begin{enumerate}
+  \item Every time a convolution is applied, the size of the image shrinks.
+  \item Pixels present in the corner of the image are used only a few number of times during convolution as compared to the central pixels. Hence, not much focus is put on the corners since that can lead to a loss of information.
+\end{enumerate}
+
+In order to overcome these issues, we can pad the image with an additional border, i.e., we add one pixel all around the edges. This means that the input will be an 8 X 8 matrix (instead of a 6 X 6 matrix). Applying convolution of 3 X 3 on it will result in a 6 X 6 matrix which is the original shape of the image.
+\par
+
+This is where padding is very useful:
+
+\begin{itemize}
+  \item Input: n X n
+  \item Padding: p
+  \item Filter size: f X f
+  \item Output: (n+2p-f+1) X (n+2p-f+1)
+\end{itemize}
+
+There are two common choices for padding.
+
+\begin{enumerate}
+  \item Valid: No padding at all. If we are using valid padding, the output will be (n-f+1) X (n-f+1)
+  \item Same: Here, we apply padding so that the output size is the same as the input size, i.e., n+2p-f+1 = n ;therefore,  p = (f-1)/2 
+\end{enumerate}

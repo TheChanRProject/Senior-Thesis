@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 02:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 02:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -397,25 +397,35 @@ File: ../images/filters-fig-9.png Graphic file (type png)
 <use ../images/filters-fig-9.png>
 Package pdftex.def Info: ../images/filters-fig-9.png  used on input line 78.
 (pdftex.def)             Requested size: 198.742pt x 104.64066pt.
-) [28 <../images/filters-fig-9.png>]
-(./chapters/methodology/methodology.tex) [29
+<../images/cnn-fig-10.png, id=122, 782.925pt x 240.9pt>
+File: ../images/cnn-fig-10.png Graphic file (type png)
+<use ../images/cnn-fig-10.png>
+Package pdftex.def Info: ../images/cnn-fig-10.png  used on input line 82.
+(pdftex.def)             Requested size: 782.9231pt x 240.8994pt.
+
+Overfull \hbox (421.37584pt too wide) in paragraph at lines 82--83
+[][] 
+ []
+
+[28 <../images/filters-fig-9.png> <../images/cnn-fig-10.png>] [29]) [30]
+(./chapters/methodology/methodology.tex) [31
 
 ] (./chapters/data/data.tex)
-[30
+[32
 
-] (./chapters/data_preparation_processing/data_preprocessing.tex) [31
-
-]
-(./chapters/classification-analysis/analysis.tex) [32
+] (./chapters/data_preparation_processing/data_preprocessing.tex) [33
 
 ]
-(./chapters/future_steps/future_steps.tex) [33
+(./chapters/classification-analysis/analysis.tex) [34
 
 ]
-(./chapters/bibliography/bibliography.tex) [34
+(./chapters/future_steps/future_steps.tex) [35
+
+]
+(./chapters/bibliography/bibliography.tex) [36
 
 ] (./chapters/appendix.tex)
-[35
+[37
 
 ] (./main.aux)
 
@@ -424,10 +434,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5880 strings out of 492649
- 77312 string characters out of 6129622
+ 5885 strings out of 492649
+ 77441 string characters out of 6129622
  154441 words of memory out of 5000000
- 9641 multiletter control sequences out of 15000+600000
+ 9645 multiletter control sequences out of 15000+600000
  11281 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,40p,1813b,1254s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -440,10 +450,10 @@ sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/loca
 l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on main.pdf (36 pages, 1722906 bytes).
+Output written on main.pdf (38 pages, 1830626 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 189 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
