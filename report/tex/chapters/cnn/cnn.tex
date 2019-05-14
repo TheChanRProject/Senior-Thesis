@@ -145,4 +145,6 @@ It is called max pooling as for every consecutive 2 X 2 block, we take the maxim
 
 
 If the input of the pooling layer is nh X nw X nc, then the output will be:
-$$ \frac{(nh – f)}{s + 1} \times \frac{(nw – f)}{s + 1} \times nc $$
+$$ \frac{(n_h – f)}{s + 1} \times \frac{(n_w – f)}{s + 1} \times n_c $$
+
+In fact what max pooling does is that it takes features from convolutional layer and tries to pool all the relevant features and discard those that doesn’t help us in identification purposes.
