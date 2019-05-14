@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557822637 "main.tex" "main.pdf" "main" 1557822640
+["pdflatex"] 1557822775 "main.tex" "main.pdf" "main" 1557822777
   "../images/chroma-cqt.png" 1557814822 142083 7858304742dde5397d7ef31901e24307 ""
   "../images/mel-spectrogram.png" 1557817192 542518 76654bf6a54f08813d1bb504becb449f ""
   "../images/stft-specgram.png" 1557812950 587799 325d07cec0b4d4b90cfdceb76eb1c498 ""
@@ -24,6 +24,7 @@
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1480098733 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1480098733 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1480098733 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1480098733 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
   "/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1480098815 7612 729a8cc22a1ee0029997c7f74717ae05 ""
@@ -35,6 +36,7 @@
   "/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty" 1480098815 18425 5b3c0c59d76fac78978b5558e83c1f36 ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty" 1522444781 20418 ca44694be1c8df491925faa194fe6edf ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty" 1523050425 5052 f2525dfd6e503dc383e90b568c6c9f02 ""
+  "/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd" 1523050425 2472 aa08940f0a4dc6c24ae9f943b04ae0b9 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls" 1523050425 22882 dde2f6d94552c7d0da323ba0661350b5 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo" 1523050425 8305 4e2a90a380a17c0472dd191689c67cbc ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1480098830 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -64,7 +66,7 @@
   "chapters/background/background.tex" 1557822356 5596 d5c7990fef558ccb1701ade547228dc0 ""
   "chapters/bibliography/bibliography.tex" 1557804564 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/classification-analysis/analysis.tex" 1557804516 43 28f162e8f41163d2e123c986348ca862 ""
-  "chapters/cnn/cnn.tex" 1557822502 43 28f162e8f41163d2e123c986348ca862 ""
+  "chapters/cnn/cnn.tex" 1557822774 257 309280a2536a1da710fdfb075113537f ""
   "chapters/data/data.tex" 1557804504 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/data_preparation_processing/data_preprocessing.tex" 1557804490 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/future_steps/future_steps.tex" 1557804474 43 28f162e8f41163d2e123c986348ca862 ""
@@ -72,7 +74,7 @@
   "chapters/librosa/librosa.tex" 1557819504 9491 bcfd42464d8fca76d29acfcee7ab85f3 ""
   "chapters/methodology/methodology.tex" 1557804458 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/ragas/ragas.tex" 1557804098 5190 bfd8b5935999945616ee12daa9cf3b5b ""
-  "main.aux" 1557822640 581 beab4ebe5c272d7ff387c1739ff9126c ""
+  "main.aux" 1557822776 581 beab4ebe5c272d7ff387c1739ff9126c ""
   "main.tex" 1557822516 1974 ec12c30a0805ea3820d4aae81b61b410 ""
   (generated)
   "main.aux"
