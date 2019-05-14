@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2019 23:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2019 23:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -222,27 +222,27 @@ Overfull \hbox (2.88689pt too wide) in paragraph at lines 50--51
 ces logarithmically-
  []
 
-[12] [13]) [14] (./chapters/background/background.tex) [15
+[12] [13]) [14] [15] (./chapters/background/background.tex) [16
 
 ]
-(./chapters/methodology/methodology.tex) [16
+(./chapters/methodology/methodology.tex) [17
 
 ] (./chapters/data/data.tex)
-[17
+[18
 
-] (./chapters/data_preparation_processing/data_preprocessing.tex) [18
-
-]
-(./chapters/classification-analysis/analysis.tex) [19
+] (./chapters/data_preparation_processing/data_preprocessing.tex) [19
 
 ]
-(./chapters/future_steps/future_steps.tex) [20
+(./chapters/classification-analysis/analysis.tex) [20
 
 ]
-(./chapters/bibliography/bibliography.tex) [21
+(./chapters/future_steps/future_steps.tex) [21
+
+]
+(./chapters/bibliography/bibliography.tex) [22
 
 ] (./chapters/appendix.tex)
-[22
+[23
 
 ] (./main.aux)
 
@@ -264,10 +264,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (24 pages, 187524 bytes).
+Output written on main.pdf (25 pages, 188418 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 110 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

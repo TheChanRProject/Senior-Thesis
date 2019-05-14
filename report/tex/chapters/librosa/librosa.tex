@@ -60,4 +60,6 @@ Spectral representations are the distributions of energy over a set of frequenci
   \textbf{Display}
 \end{flushleft}
 
-The display module provides simple interfaces to visually render audio data through matplotlib [ref]. The first function, display.waveplot simply renders the amplitude envelope of an audio signal y using matplotlib’s fill\_between function. For efficiency purposes, the signal is dynamically down-sampled. 
+The display module provides simple interfaces to visually render audio data through matplotlib [ref]. The first function, display.waveplot simply renders the amplitude envelope of an audio signal y using matplotlib’s fill\_between function. For efficiency purposes, the signal is dynamically down-sampled.
+\par
+Mono signals are rendered symmetrically about the horizontal axis; stereo signals are rendered with the left-channel’s amplitude above the axis and the right-channel’s below. An example of waveplot is depicted in Figure 2 (top). The second function, display.specshow wraps matplotlib’s imshow function with default settings (origin and aspect) adapted to the expected defaults for visualizing spectrograms. Additionally, specshow dynamically selects appropriate colormaps (binary, sequential, or diverging) from the data type and range [ref]. Finally, specshow provides a variety of acoustically relevant axis labeling and scaling parameters. Examples of specshow output are displayed in Figures 1 and 2 (middle). 
