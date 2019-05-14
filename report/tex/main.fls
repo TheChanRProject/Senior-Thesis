@@ -40,6 +40,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/enumerate.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/enumerate.sty
 INPUT main.aux
 INPUT main.aux
 OUTPUT main.aux
@@ -113,6 +115,9 @@ INPUT ../images/waveplot.png
 INPUT ../images/waveplot.png
 INPUT chapters/background/background.tex
 INPUT chapters/background/background.tex
+INPUT ../images/vocal-stft.png
+INPUT ../images/vocal-stft.png
+INPUT ../images/vocal-stft.png
 INPUT chapters/methodology/methodology.tex
 INPUT chapters/methodology/methodology.tex
 INPUT chapters/data/data.tex

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 00:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 01:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -97,7 +97,10 @@ Package color Info: Driver file: pdftex.def on input line 147.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(./main.aux)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks18
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -112,7 +115,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
-
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count97
@@ -120,12 +122,12 @@ LaTeX Font Info:    ... okay on input line 42.
 \scratchbox=\box28
 \nofMPsegments=\count98
 \nofMParguments=\count99
-\everyMPshowfont=\toks18
+\everyMPshowfont=\toks19
 \MPscratchCnt=\count100
 \MPscratchDim=\dimen110
 \MPnumerator=\count101
 \makeMPintoPDFobject=\count102
-\everyMPtoPDFconversion=\toks19
+\everyMPtoPDFconversion=\toks20
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -277,25 +279,42 @@ Overfull \hbox (37.59645pt too wide) in paragraph at lines 81--82
 [16 <../images/chroma-cqt.png> <../images/tonnetz.png>] [17 <../images/waveplot
 .png>] (./chapters/background/background.tex [18
 
-]) [19]
-(./chapters/methodology/methodology.tex) [20
+] [19]
+<../images/vocal-stft.png, id=82, 867.24pt x 289.08pt>
+File: ../images/vocal-stft.png Graphic file (type png)
+<use ../images/vocal-stft.png>
+Package pdftex.def Info: ../images/vocal-stft.png  used on input line 16.
+(pdftex.def)             Requested size: 867.2379pt x 289.07928pt.
+
+Overfull \hbox (477.2379pt too wide) in paragraph at lines 16--17
+[][] 
+ []
+
+
+Overfull \hbox (2.38065pt too wide) in paragraph at lines 24--24
+[]\OT1/cmr/m/n/12 no un-voiced speech, which in-cludes con-so-nants like `t', `
+p,', `k', `s', breaths,
+ []
+
+[20] [21 <../images/vocal-stft.png>]) [22]
+(./chapters/methodology/methodology.tex) [23
 
 ] (./chapters/data/data.tex)
-[21
+[24
 
-] (./chapters/data_preparation_processing/data_preprocessing.tex) [22
-
-]
-(./chapters/classification-analysis/analysis.tex) [23
+] (./chapters/data_preparation_processing/data_preprocessing.tex) [25
 
 ]
-(./chapters/future_steps/future_steps.tex) [24
+(./chapters/classification-analysis/analysis.tex) [26
 
 ]
-(./chapters/bibliography/bibliography.tex) [25
+(./chapters/future_steps/future_steps.tex) [27
+
+]
+(./chapters/bibliography/bibliography.tex) [28
 
 ] (./chapters/appendix.tex)
-[26
+[29
 
 ] (./main.aux)
 
@@ -304,10 +323,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 3488 strings out of 492649
- 48823 string characters out of 6129622
+ 3513 strings out of 492649
+ 49285 string characters out of 6129622
  142164 words of memory out of 5000000
- 7301 multiletter control sequences out of 15000+600000
+ 7322 multiletter control sequences out of 15000+600000
  9583 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,40p,1762b,1255s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -316,10 +335,10 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
 usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (27 pages, 1405413 bytes).
+Output written on main.pdf (30 pages, 1518522 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
