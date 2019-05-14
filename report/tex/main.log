@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 MAR 2019 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2019 18:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -151,23 +151,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [1
 
-] [2{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../
-images/university_1.png>]
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../imag
+es/university_1.png>] [2]
 Chapter 1.
 (./chapters/introduction/introduction.tex) [1
 
 ]
 Chapter 2.
-(./chapters/literature_review/literature_review.tex) [2
+(./chapters/background/background.tex) [2
 
 ]
 Chapter 3.
-(./chapters/algorithm_summary/algorithms.tex) [3
+(./chapters/methodology/methodology.tex) [3
 
 ]
 Chapter 4.
-(./chapters/data_preparation_processing/data_preparation_processing.tex)
-[4
+(./chapters/data_preparation_processing/data_preprocessing.tex) [4
 
 ]
 Chapter 5.
@@ -175,25 +174,21 @@ Chapter 5.
 
 ]
 Chapter 6.
-(./chapters/app-proof-of-concept/app.tex) [6
+(./chapters/future_steps/future_steps.tex) [6
 
 ]
 Chapter 7.
-(./chapters/future_steps/future_steps.tex) [7
+(./chapters/bibliography/bibliography.tex) [7
 
 ]
 Chapter 8.
-(./chapters/bibliography/bibliography.tex) [8
-
-]
-Chapter 9.
-(./chapters/appendix.tex) [9
+(./chapters/appendix.tex) [8
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 1496 strings out of 492649
- 22385 string characters out of 6129622
- 82273 words of memory out of 5000000
+ 1492 strings out of 492649
+ 22192 string characters out of 6129622
+ 82238 words of memory out of 5000000
  5356 multiletter control sequences out of 15000+600000
  5756 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -202,10 +197,10 @@ Here is how much of TeX's memory you used:
 /cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr17.pfb>
-Output written on main.pdf (11 pages, 127908 bytes).
+Output written on main.pdf (10 pages, 125617 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
