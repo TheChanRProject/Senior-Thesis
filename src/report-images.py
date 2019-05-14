@@ -2,7 +2,7 @@ import os
 import numpy as np
 from librosa import load, stft, amplitude_to_db, power_to_db
 from librosa.feature import melspectrogram, chroma_cqt, tonnetz
-from librosa.display import specshow
+from librosa.display import specshow, waveplot
 import matplotlib.pyplot as plt
 
 sampFile = os.listdir("data/Hindustani/mp3/Bhairav")
@@ -34,4 +34,8 @@ ms = melspectrogram(y=y, sr=sr)
 specshow(power_to_db(ms, ref=np.max), y_axis='mel', fmax=8000, x_axis='time')
 plt.title("Mel Spectrogram Example")
 plt.colorbar(format="%+2.0f dB")
+plt.tight_layout()
+
+waveplot(y=y, sr=sr)
+plt.title("Audio Waveplot")
 plt.tight_layout()
