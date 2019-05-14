@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557804711 "main.tex" "main.pdf" "main" 1557804713
+["pdflatex"] 1557804711 "main.tex" "main.pdf" "main" 1557804799
   "../images/university_1.png" 1553662984 68213 043d4c08045cb522daf842aac285f054 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -52,6 +52,6 @@
   "main.aux" 1557804712 8 a94a2480d3289e625eea47cd1b285758 ""
   "main.tex" 1557804710 1390 732744415fa91182945060cf87e90b0c ""
   (generated)
-  "main.log"
-  "main.pdf"
   "main.aux"
+  "main.pdf"
+  "main.log"
