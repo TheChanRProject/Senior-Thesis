@@ -125,6 +125,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 INPUT ../images/edge-fig-1.png
 INPUT ../images/edge-fig-1.png
 INPUT ../images/edge-fig-1.png
+INPUT ../images/edge-fig-2.png
+INPUT ../images/edge-fig-2.png
+INPUT ../images/edge-fig-2.png
 INPUT chapters/methodology/methodology.tex
 INPUT chapters/methodology/methodology.tex
 INPUT chapters/data/data.tex
