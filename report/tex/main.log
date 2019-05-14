@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 01:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 01:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -304,27 +304,33 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
-) [23
+ [23
 
 ]
-(./chapters/methodology/methodology.tex) [24
-
-] (./chapters/data/data.tex)
-[25
-
-] (./chapters/data_preparation_processing/data_preprocessing.tex) [26
-
-]
-(./chapters/classification-analysis/analysis.tex) [27
+<../images/edge-fig-1.png, id=97, 118.94438pt x 71.51718pt>
+File: ../images/edge-fig-1.png Graphic file (type png)
+<use ../images/edge-fig-1.png>
+Package pdftex.def Info: ../images/edge-fig-1.png  used on input line 21.
+(pdftex.def)             Requested size: 118.94408pt x 71.517pt.
+) [24 <../images/edge-fig-1.png>] (./chapters/methodology/methodology.tex) [25
 
 ]
-(./chapters/future_steps/future_steps.tex) [28
+(./chapters/data/data.tex) [26
 
 ]
-(./chapters/bibliography/bibliography.tex) [29
+(./chapters/data_preparation_processing/data_preprocessing.tex) [27
+
+]
+(./chapters/classification-analysis/analysis.tex) [28
+
+]
+(./chapters/future_steps/future_steps.tex) [29
+
+]
+(./chapters/bibliography/bibliography.tex) [30
 
 ] (./chapters/appendix.tex)
-[30
+[31
 
 ] (./main.aux)
 
@@ -333,10 +339,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 3534 strings out of 492649
- 49645 string characters out of 6129622
+ 3539 strings out of 492649
+ 49774 string characters out of 6129622
  142164 words of memory out of 5000000
- 7336 multiletter control sequences out of 15000+600000
+ 7340 multiletter control sequences out of 15000+600000
  9583 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,40p,1762b,1255s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -346,10 +352,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (31 pages, 1526236 bytes).
+Output written on main.pdf (32 pages, 1538716 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 145 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
