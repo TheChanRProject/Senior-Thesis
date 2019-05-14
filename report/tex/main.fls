@@ -79,6 +79,8 @@ INPUT chapters/background/background.tex
 INPUT chapters/background/background.tex
 INPUT chapters/methodology/methodology.tex
 INPUT chapters/methodology/methodology.tex
+INPUT chapters/data/data.tex
+INPUT chapters/data/data.tex
 INPUT chapters/data_preparation_processing/data_preprocessing.tex
 INPUT chapters/data_preparation_processing/data_preprocessing.tex
 INPUT chapters/classification-analysis/analysis.tex

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557798753 "main.tex" "main.pdf" "main" 1557798754
+["pdflatex"] 1557799186 "main.tex" "main.pdf" "main" 1557799189
   "../images/university_1.png" 1553662984 68213 043d4c08045cb522daf842aac285f054 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -42,14 +42,15 @@
   "chapters/background/background.tex" 1553727398 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/bibliography/bibliography.tex" 1553727578 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/classification-analysis/analysis.tex" 1553727516 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "chapters/data/data.tex" 1557799136 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/data_preparation_processing/data_preprocessing.tex" 1553727482 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/future_steps/future_steps.tex" 1553727568 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/introduction/introduction.tex" 1557798752 4116 7a3137dd1a4ad492dd3a3c9adefaf23c ""
   "chapters/librosa/librosa.tex" 1557798416 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/methodology/methodology.tex" 1557796422 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/ragas/ragas.tex" 1557798610 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.aux" 1557798754 8 a94a2480d3289e625eea47cd1b285758 ""
-  "main.tex" 1557798660 1264 167580ebb564aca58011cabe3fc761f8 ""
+  "main.aux" 1557799188 8 a94a2480d3289e625eea47cd1b285758 ""
+  "main.tex" 1557799186 1348 365ddd6c174f33c6b1f6f4128b8d1cb8 ""
   (generated)
   "main.pdf"
   "main.log"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2019 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2019 18:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -175,20 +175,22 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <20> not available
 ]
 (./chapters/methodology/methodology.tex) [7
 
-]
-(./chapters/data_preparation_processing/data_preprocessing.tex) [8
+] (./chapters/data/data.tex)
+[8
+
+] (./chapters/data_preparation_processing/data_preprocessing.tex) [9
 
 ]
-(./chapters/classification-analysis/analysis.tex) [9
+(./chapters/classification-analysis/analysis.tex) [10
 
 ]
-(./chapters/future_steps/future_steps.tex) [10
+(./chapters/future_steps/future_steps.tex) [11
 
 ]
-(./chapters/bibliography/bibliography.tex) [11
+(./chapters/bibliography/bibliography.tex) [12
 
 ] (./chapters/appendix.tex)
-[12
+[13
 
 ] (./main.aux)
 
@@ -197,8 +199,8 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 1632 strings out of 492649
- 24415 string characters out of 6129622
+ 1636 strings out of 492649
+ 24479 string characters out of 6129622
  88546 words of memory out of 5000000
  5480 multiletter control sequences out of 15000+600000
  6063 words of font info for 22 fonts, out of 8000000 for 9000
@@ -207,10 +209,10 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (14 pages, 136326 bytes).
+Output written on main.pdf (15 pages, 136838 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
