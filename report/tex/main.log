@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2019 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2019 21:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -156,8 +156,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../imag
-es/university_1.png>] [2] (./gratitude/readers.tex) [1]
+] [2{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../
+images/university_1.png>] (./gratitude/readers.tex) [1]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <20> not available
 (Font)              size <20.74> substituted on input line 22.
@@ -201,7 +201,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  1641 strings out of 492649
  24555 string characters out of 6129622
- 88546 words of memory out of 5000000
+ 88573 words of memory out of 5000000
  5481 multiletter control sequences out of 15000+600000
  6370 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -209,7 +209,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (19 pages, 146037 bytes).
+Output written on main.pdf (19 pages, 146050 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream

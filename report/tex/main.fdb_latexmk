@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557805770 "main.tex" "main.pdf" "main" 1557805772
+["pdflatex"] 1557806846 "main.tex" "main.pdf" "main" 1557806847
   "../images/university_1.png" 1553662984 68213 043d4c08045cb522daf842aac285f054 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -50,9 +50,9 @@
   "chapters/methodology/methodology.tex" 1557804458 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/ragas/ragas.tex" 1557804098 5190 bfd8b5935999945616ee12daa9cf3b5b ""
   "gratitude/readers.tex" 1557805770 1184 81d3b6f83ec27b3898d5da652889599b ""
-  "main.aux" 1557805770 8 a94a2480d3289e625eea47cd1b285758 ""
-  "main.tex" 1557804830 1418 e9058c766cb7ec3f4cba731c33ab2c09 ""
+  "main.aux" 1557806846 8 a94a2480d3289e625eea47cd1b285758 ""
+  "main.tex" 1557806844 1446 f584d221625f044090c1688a033771de ""
   (generated)
-  "main.aux"
   "main.log"
+  "main.aux"
   "main.pdf"
