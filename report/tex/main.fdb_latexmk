@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557822357 "main.tex" "main.pdf" "main" 1557822360
+["pdflatex"] 1557822357 "main.tex" "main.pdf" "main" 1557822503
   "../images/chroma-cqt.png" 1557814822 142083 7858304742dde5397d7ef31901e24307 ""
   "../images/mel-spectrogram.png" 1557817192 542518 76654bf6a54f08813d1bb504becb449f ""
   "../images/stft-specgram.png" 1557812950 587799 325d07cec0b4d4b90cfdceb76eb1c498 ""
@@ -74,6 +74,6 @@
   "main.aux" 1557822358 581 beab4ebe5c272d7ff387c1739ff9126c ""
   "main.tex" 1557821440 1895 11c4b382301d3dbdbeddcd27ba3d0556 ""
   (generated)
-  "main.log"
   "main.pdf"
   "main.aux"
+  "main.log"
