@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2019 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2019 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -206,30 +206,37 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <20> not available
 ] [3]) [4]
 (./chapters/ragas/ragas.tex [5
 
-] [6] [7]) [8] (./chapters/librosa/librosa.tex)
+] [6] [7]) [8] (./chapters/librosa/librosa.tex
 [9
 
-] (./chapters/background/background.tex) [10
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 10.
+) [10] (./chapters/background/background.tex) [11
 
 ]
-(./chapters/methodology/methodology.tex) [11
+(./chapters/methodology/methodology.tex) [12
 
 ] (./chapters/data/data.tex)
-[12
+[13
 
-] (./chapters/data_preparation_processing/data_preprocessing.tex) [13
-
-]
-(./chapters/classification-analysis/analysis.tex) [14
+] (./chapters/data_preparation_processing/data_preprocessing.tex) [14
 
 ]
-(./chapters/future_steps/future_steps.tex) [15
+(./chapters/classification-analysis/analysis.tex) [15
 
 ]
-(./chapters/bibliography/bibliography.tex) [16
+(./chapters/future_steps/future_steps.tex) [16
+
+]
+(./chapters/bibliography/bibliography.tex) [17
 
 ] (./chapters/appendix.tex)
-[17
+[18
 
 ] (./main.aux)
 
@@ -238,20 +245,23 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 3044 strings out of 492649
- 44721 string characters out of 6129622
- 127164 words of memory out of 5000000
- 6864 multiletter control sequences out of 15000+600000
- 6370 words of font info for 23 fonts, out of 8000000 for 9000
+ 3466 strings out of 492649
+ 48281 string characters out of 6129622
+ 142164 words of memory out of 5000000
+ 7279 multiletter control sequences out of 15000+600000
+ 9276 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,40p,1671b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,6n,40p,1671b,1255s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (19 pages, 146314 bytes).
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (20 pages, 179437 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

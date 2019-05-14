@@ -1,2 +1,29 @@
 \doublespacing
 \setlength{\parindent}{1cm}
+
+The research field of music information retrieval (MIR) has been evolving rapidly. Taken broadly, it covers the area of musicology, digital signal processing, machine learning, information retrieval and library science. As digital music service platforms such as iTunes, Spotify and Pandora have grown, so has been the need for MIR tools which to date has been largely written by programmers as scripts using C++ or MATLAB. In recent years, interest has grown within the MIR community in using (scientific) Python as a viable alternative [ref]. LibROSA is a python package for music and audio analysis. It provides the building blocks necessary to create music information retrieval systems. Here I provide a brief introduction to basic ideas and elements in libROSA as I have used this package in conducting bulk of the work in my thesis.
+\par
+In general, librosa’s functions tend to expose all relevant parameters to the caller. While this provides a great deal of flexibility to expert users, it can be overwhelming to novice users who simply need a consistent interface to process audio files. To satisfy both needs, they define a set of general conventions and standardized default parameter values shared across many functions.
+\par
+An audio signal is represented as a one-dimensional numpy array, denoted as y throughout librosa. Typically the signal y is accompanied by the sampling rate (denoted sr) which denotes the frequency (in Hz) at which values of y are sampled. The duration of a signal (d) can then be computed by dividing the number of samples (y) by the sampling rate (sr): \par
+\begin{center}
+  $ d = \frac{y}{sr} $
+\end{center}
+
+\begin{lstlisting}
+\# duration_seconds.py
+from librosa import load
+import os
+# Getting all mp3 files of raga Bhairav from dataset
+fileList = os.listdir("data/Hindustani/mp3/Bhairav")
+# Creating dictionary to store number of samples and sampling rate
+sampleDict = {}
+# y is number of samples, sr is sampling rate of the audio file
+for file in fileList:
+  y, sr = load(file)
+  sampleDict[file].append(y)
+  sampleDict[file].append(sr)
+  # calculating signal duration
+  duration = y / sr
+  sampleDict[file].append(duration) 
+\end{lstlisting}
