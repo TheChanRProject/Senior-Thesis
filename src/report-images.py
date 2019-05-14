@@ -23,4 +23,9 @@ specshow(chroma_cq, y_axis='chroma', x_axis='time')
 plt.title("Chromagram Constant Q Transform")
 plt.colorbar()
 plt.tight_layout()
-    
+
+tonnetz = tonnetz(y=y, sr=sr)
+specshow(tonnetz, y_axis='tonnetz')
+plt.title("Tonnetz Example")
+plt.colorbar()
+plt.tight_layout()
