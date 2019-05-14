@@ -11,7 +11,7 @@ An audio signal is represented as a one-dimensional numpy array, denoted as y th
 \end{center}
 
 \begin{lstlisting}
-\# duration_seconds.py
+# duration_seconds.py
 from librosa import load
 import os
 # Getting all mp3 files of raga Bhairav from dataset
@@ -25,5 +25,33 @@ for file in fileList:
   sampleDict[file].append(sr)
   # calculating signal duration
   duration = y / sr
-  sampleDict[file].append(duration) 
+  sampleDict[file].append(duration)
 \end{lstlisting}
+
+By default, when loading stereo audio files, the librosa.load() function down mixes to mono by averaging left- and right-channels, and then resamples the monophonic signal to the default rate $ sr=22050Hz $. Most audio analysis methods operate not at the native sampling rate of the signal, but over small frames of the signal which are spaced by a hop length (in samples). The default frame and hop lengths are set to 2048 and 512 samples, respectively. At the default sampling rate of 22050 Hz, this corresponds to overlapping frames of approximately 93ms spaced by 23ms. Frames are centered by default, so frame index t corresponds to the slice:
+
+\begin{lstlisting}
+  y[(t*hop_length - frame_length/2):(t*hop_length+frame_length/2)]
+\end{lstlisting}
+
+where boundary conditions are handled by reflection padding the input signal y. For analyses that do not use fixed-width frames (such as the constant-Q transform), the default hop length of 512 is retained to facilitate alignment of results.
+
+\par
+
+The majority of feature analyses implemented by librosa produce two-dimensional outputs stored as numpy.ndarray, e.g., S[f, t] might contain the energy within a particular frequency band f at frame index t. We follow the convention that the final dimension provides the index over time, e.g., S[:, 0],  S[:,1] access features at the first and second frames. Feature arrays are organized column-major (Fortran style) in memory, so that common access patterns benefit from cache locality. By default, all pitch-based analyses are assumed to be relative to a 12-bin equal-tempered chromatic scale with a reference tuning of A440 = 440.0 Hz. Pitch and pitch-class analyses are arranged such that the 0th bin corresponds to C for pitch class or C1 (32.7 Hz) for absolute pitch measurements.
+
+\par
+\begin{flushleft}
+  \textbf{Core Functionality}
+\end{flushleft}
+
+The librosa.core submodule includes a range of commonly used functions. Broadly, core functionality falls into four categories: audio and time-series operations, spectrogram calculation, time and frequency conversion, and pitch operations [ref]. For convenience, all functions within the core submodule are aliased at the top level of the package hierarchy, e.g., ``librosa.core.load'' is aliased to ``librosa.load''.
+\par
+Audio and time-series operations include functions such as: reading audio from disk via the audioread package [ref], resampling a signal at a desired rate, stereo to mono conversion, time-domain bounded auto-correlation, and zero-crossing detection. Spectrogram operations include the short-time Fourier transform (stft), inverse STFT (istft), and instantaneous frequency spectrogram (ifgram) [Abe \space 95], which provide much of the core functionality for down-stream feature analysis. Additionally, an efficient constant-Q transform (cqt) implementation based upon the recursive down-sampling method of Schoerkhuber and Klapuri [ref] is provided, which produces logarithmically-spaced frequency representations suitable for pitch-based signal analysis. Finally, logamplitude provides a flexible and robust implementation of log-amplitude scaling, which can be used to avoid numerical underflow and set an adaptive noise floor when converting from linear amplitude. Since data may be represented in a variety of time or frequency units, a comprehensive set of convenience functions is provided to map between different time representations: seconds, frames, or samples; and frequency representations: hertz, constant-Q basis index, Fourier basis index, Mel basis index, MIDI note number, or note in scientific pitch notation. Finally, the core submodule provides functionality to estimate the dominant frequency of STFT bins via parabolic interpolation (piptrack) [Smith \space 11], and estimation of tuning deviation (incents) from the frequency reference A440. These functions allow pitch-based analyses (e.g., cqt) to dynamically adapt filter banks to match the global tuning offset of a particular audio signal.
+
+\par
+\begin{flushleft}
+  \textbf{Spectral Features}
+\end{flushleft}
+
+Spectral representations—the distributions of energy over a set of frequencies—form the basis of many analysis techniques in MIR and digital signal processing in general. The ``librosa.feature'' module implements a variety of spectral representations, most of which are based upon the short-time Fourier transform. The Mel frequency scale is commonly used to represent audio signals, as it provides a rough model of human frequency perception [ref]. Both a Mel-scale spectrogram (``librosa.feature.melspectrogram``) and the commonly used Mel-frequency Cepstral Coefficients (MFCC) (``librosa.feature.mfcc``) are provided. By default, Mel scales are defined to match the implementation provided by Slaney’s auditory toolbox [ref], but they can be made to match the Hidden Markov Model Toolkit (HTK) by setting the flag $ htk=True $ [ref].
