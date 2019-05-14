@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557822357 "main.tex" "main.pdf" "main" 1557822503
+["pdflatex"] 1557822517 "main.tex" "main.pdf" "main" 1557822520
   "../images/chroma-cqt.png" 1557814822 142083 7858304742dde5397d7ef31901e24307 ""
   "../images/mel-spectrogram.png" 1557817192 542518 76654bf6a54f08813d1bb504becb449f ""
   "../images/stft-specgram.png" 1557812950 587799 325d07cec0b4d4b90cfdceb76eb1c498 ""
@@ -64,6 +64,7 @@
   "chapters/background/background.tex" 1557822356 5596 d5c7990fef558ccb1701ade547228dc0 ""
   "chapters/bibliography/bibliography.tex" 1557804564 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/classification-analysis/analysis.tex" 1557804516 43 28f162e8f41163d2e123c986348ca862 ""
+  "chapters/cnn/cnn.tex" 1557822502 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/data/data.tex" 1557804504 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/data_preparation_processing/data_preprocessing.tex" 1557804490 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/future_steps/future_steps.tex" 1557804474 43 28f162e8f41163d2e123c986348ca862 ""
@@ -71,9 +72,9 @@
   "chapters/librosa/librosa.tex" 1557819504 9491 bcfd42464d8fca76d29acfcee7ab85f3 ""
   "chapters/methodology/methodology.tex" 1557804458 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/ragas/ragas.tex" 1557804098 5190 bfd8b5935999945616ee12daa9cf3b5b ""
-  "main.aux" 1557822358 581 beab4ebe5c272d7ff387c1739ff9126c ""
-  "main.tex" 1557821440 1895 11c4b382301d3dbdbeddcd27ba3d0556 ""
+  "main.aux" 1557822520 581 beab4ebe5c272d7ff387c1739ff9126c ""
+  "main.tex" 1557822516 1974 ec12c30a0805ea3820d4aae81b61b410 ""
   (generated)
-  "main.pdf"
-  "main.aux"
   "main.log"
+  "main.aux"
+  "main.pdf"

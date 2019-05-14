@@ -118,6 +118,8 @@ INPUT chapters/background/background.tex
 INPUT ../images/vocal-stft.png
 INPUT ../images/vocal-stft.png
 INPUT ../images/vocal-stft.png
+INPUT chapters/cnn/cnn.tex
+INPUT chapters/cnn/cnn.tex
 INPUT chapters/methodology/methodology.tex
 INPUT chapters/methodology/methodology.tex
 INPUT chapters/data/data.tex
