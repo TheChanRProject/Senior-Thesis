@@ -170,6 +170,9 @@ INPUT ../images/conv-fig-8.png
 INPUT ../images/conv-fig-8.png
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-34.def
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-34.def
+INPUT ../images/filters-fig-9.png
+INPUT ../images/filters-fig-9.png
+INPUT ../images/filters-fig-9.png
 INPUT chapters/methodology/methodology.tex
 INPUT chapters/methodology/methodology.tex
 INPUT chapters/data/data.tex

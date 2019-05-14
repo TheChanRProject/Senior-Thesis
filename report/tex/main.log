@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 02:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 02:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -391,14 +391,19 @@ Overfull \hbox (116.64157pt too wide) in paragraph at lines 63--64
 [26 <../images/mat-fig-6.png> <../images/mat-fig-7.png>]
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-)) [27 <../images/conv-fig-8.png>] [28] (./chapters/methodology/methodology.tex
-) [29
+) [27 <../images/conv-fig-8.png>]
+<../images/filters-fig-9.png, id=121, 198.7425pt x 104.64093pt>
+File: ../images/filters-fig-9.png Graphic file (type png)
+<use ../images/filters-fig-9.png>
+Package pdftex.def Info: ../images/filters-fig-9.png  used on input line 78.
+(pdftex.def)             Requested size: 198.742pt x 104.64066pt.
+) [28 <../images/filters-fig-9.png>]
+(./chapters/methodology/methodology.tex) [29
 
-]
-(./chapters/data/data.tex) [30
+] (./chapters/data/data.tex)
+[30
 
-]
-(./chapters/data_preparation_processing/data_preprocessing.tex) [31
+] (./chapters/data_preparation_processing/data_preprocessing.tex) [31
 
 ]
 (./chapters/classification-analysis/analysis.tex) [32
@@ -419,10 +424,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5875 strings out of 492649
- 77168 string characters out of 6129622
+ 5880 strings out of 492649
+ 77312 string characters out of 6129622
  154441 words of memory out of 5000000
- 9637 multiletter control sequences out of 15000+600000
+ 9641 multiletter control sequences out of 15000+600000
  11281 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,40p,1813b,1254s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -435,10 +440,10 @@ sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/loca
 l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on main.pdf (36 pages, 1718630 bytes).
+Output written on main.pdf (36 pages, 1722906 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
+ 178 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

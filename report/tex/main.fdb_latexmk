@@ -1,9 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1557825178 "main.tex" "main.pdf" "main" 1557825181
+["pdflatex"] 1557825499 "main.tex" "main.pdf" "main" 1557825506
   "../images/chroma-cqt.png" 1557814822 142083 7858304742dde5397d7ef31901e24307 ""
   "../images/conv-fig-8.png" 1557818518 102238 595cd17ccb47ef69409caaf5232296b7 ""
   "../images/edge-fig-1.png" 1557818520 13911 ee1070e184ce286cfecbb7b9bd300cea ""
   "../images/edge-fig-2.png" 1557818526 36205 9678302863fb249f20e21f4b52d0fbb9 ""
+  "../images/filters-fig-9.png" 1557818522 7488 8132298b7272599f57d0ba0be9084c39 ""
   "../images/mat-fig-5.png" 1557818524 22829 53cf00c47cdccb5400bb26dac160908c ""
   "../images/mat-fig-6.png" 1557818526 29080 90dfe8f8371c330241c6b057894936d8 ""
   "../images/mat-fig-7.png" 1557818528 3300 2c667a5004d6986ae29f1751ff448f23 ""
@@ -88,7 +89,7 @@
   "chapters/background/background.tex" 1557822356 5596 d5c7990fef558ccb1701ade547228dc0 ""
   "chapters/bibliography/bibliography.tex" 1557804564 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/classification-analysis/analysis.tex" 1557804516 43 28f162e8f41163d2e123c986348ca862 ""
-  "chapters/cnn/cnn.tex" 1557825178 4249 efb170ebda0de7cdcee98a88d2ba5938 ""
+  "chapters/cnn/cnn.tex" 1557825498 4489 a66d0e7e384c13c1d38d000b5baf4fba ""
   "chapters/data/data.tex" 1557804504 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/data_preparation_processing/data_preprocessing.tex" 1557804490 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/future_steps/future_steps.tex" 1557804474 43 28f162e8f41163d2e123c986348ca862 ""
@@ -96,9 +97,9 @@
   "chapters/librosa/librosa.tex" 1557819504 9491 bcfd42464d8fca76d29acfcee7ab85f3 ""
   "chapters/methodology/methodology.tex" 1557804458 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/ragas/ragas.tex" 1557804098 5190 bfd8b5935999945616ee12daa9cf3b5b ""
-  "main.aux" 1557825180 581 beab4ebe5c272d7ff387c1739ff9126c ""
+  "main.aux" 1557825504 581 beab4ebe5c272d7ff387c1739ff9126c ""
   "main.tex" 1557825096 2024 ca2d1e7ab7fee6391674f1030298bc2a ""
   (generated)
-  "main.aux"
-  "main.log"
   "main.pdf"
+  "main.log"
+  "main.aux"
