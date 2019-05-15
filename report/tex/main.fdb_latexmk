@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557918737 "main.tex" "main.pdf" "main" 1557918743
+["pdflatex"] 1557919930 "main.tex" "main.pdf" "main" 1557919936
   "../images/3D-conv-fig-13.png" 1557818514 92447 fa9f7df07d376227d00297136979fba2 ""
   "../images/audio-directory.png" 1557896896 153621 ea4f8902bca677d4f27cd8628c93e3f1 ""
   "../images/audio-directory2.png" 1557896904 34887 3555a9c3598ce36972cb3466e2b9d564 ""
@@ -106,11 +106,11 @@
   "chapters/librosa/librosa.tex" 1557910068 9667 c730cc0d9217719e6f6b2d48a5794255 ""
   "chapters/methodology/methodology.tex" 1557911888 16132 6b548f780d18b9e4187881db7bdd2945 ""
   "chapters/ragas/ragas.tex" 1557909600 5334 6de8b98cd409df9f774dd1546e30a470 ""
-  "gratitude/readers.tex" 1557918736 969 da6ab8c6d97bc4c4524b6863d773c93b ""
-  "main.aux" 1557918742 1345 7e329fdd733865c40b6d4e0a5b7aaed8 ""
+  "gratitude/readers.tex" 1557919930 1178 9c5d237d2bf1964e408d056ddc2721a9 ""
+  "main.aux" 1557919934 1345 7e329fdd733865c40b6d4e0a5b7aaed8 ""
   "main.tex" 1557918648 1835 7a7778c2abae9bf8e54cc290ce9fcb14 ""
   (generated)
+  "main.aux"
   "main.toc"
   "main.log"
   "main.pdf"
-  "main.aux"
