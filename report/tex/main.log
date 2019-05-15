@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 20:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -342,126 +342,122 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 <../images/edge-fig-1.png, id=97, 118.94438pt x 71.51718pt>
 File: ../images/edge-fig-1.png Graphic file (type png)
 <use ../images/edge-fig-1.png>
-Package pdftex.def Info: ../images/edge-fig-1.png  used on input line 21.
-(pdftex.def)             Requested size: 118.94408pt x 71.517pt.
+Package pdftex.def Info: ../images/edge-fig-1.png  used on input line 22.
+(pdftex.def)             Requested size: 130.8392pt x 78.66913pt.
+
+Overfull \hbox (36.87646pt too wide) in paragraph at lines 22--23
+[][] 
+ []
+
 <../images/edge-fig-2.png, id=98, 291.33844pt x 179.16937pt>
 File: ../images/edge-fig-2.png Graphic file (type png)
 <use ../images/edge-fig-2.png>
-Package pdftex.def Info: ../images/edge-fig-2.png  used on input line 27.
-(pdftex.def)             Requested size: 291.33772pt x 179.16893pt.
-<../images/matrix-fig-3.png, id=99, 129.48375pt x 89.58469pt>
+Package pdftex.def Info: ../images/edge-fig-2.png  used on input line 28.
+(pdftex.def)             Requested size: 341.43306pt x 209.99365pt.
+[24 <../images/edge-fig-1.png>]
+<../images/matrix-fig-3.png, id=103, 129.48375pt x 89.58469pt>
 File: ../images/matrix-fig-3.png Graphic file (type png)
 <use ../images/matrix-fig-3.png>
-Package pdftex.def Info: ../images/matrix-fig-3.png  used on input line 33.
-(pdftex.def)             Requested size: 129.48341pt x 89.58446pt.
- [24 <../images/edge-fig-1.png> <../images/edge-fig-2.png>]
+Package pdftex.def Info: ../images/matrix-fig-3.png  used on input line 34.
+(pdftex.def)             Requested size: 341.43306pt x 236.25002pt.
 <../images/mat-filter-fig-4.png, id=104, 262.73157pt x 114.4275pt>
 File: ../images/mat-filter-fig-4.png Graphic file (type png)
 <use ../images/mat-filter-fig-4.png>
-Package pdftex.def Info: ../images/mat-filter-fig-4.png  used on input line 39.
+Package pdftex.def Info: ../images/mat-filter-fig-4.png  used on input line 40.
 
-(pdftex.def)             Requested size: 262.73091pt x 114.42722pt.
+(pdftex.def)             Requested size: 341.43306pt x 148.71033pt.
 <../images/mat-fig-5.png, id=105, 110.66344pt x 111.41624pt>
 File: ../images/mat-fig-5.png Graphic file (type png)
 <use ../images/mat-fig-5.png>
-Package pdftex.def Info: ../images/mat-fig-5.png  used on input line 45.
-(pdftex.def)             Requested size: 110.66315pt x 111.41597pt.
- [25 <../images/matrix-fig-3.png> <../images/mat-filter-fig-4.png> <../images/m
-at-fig-5.png>]
-<../images/mat-fig-6.png, id=109, 110.66344pt x 111.41624pt>
+Package pdftex.def Info: ../images/mat-fig-5.png  used on input line 46.
+(pdftex.def)             Requested size: 121.73013pt x 122.55824pt.
+<../images/mat-fig-6.png, id=106, 110.66344pt x 111.41624pt>
 File: ../images/mat-fig-6.png Graphic file (type png)
 <use ../images/mat-fig-6.png>
-Package pdftex.def Info: ../images/mat-fig-6.png  used on input line 51.
-(pdftex.def)             Requested size: 110.66315pt x 111.41597pt.
-<../images/mat-fig-7.png, id=110, 83.5622pt x 56.46094pt>
+Package pdftex.def Info: ../images/mat-fig-6.png  used on input line 52.
+(pdftex.def)             Requested size: 121.73013pt x 122.55824pt.
+<../images/mat-fig-7.png, id=107, 83.5622pt x 56.46094pt>
 File: ../images/mat-fig-7.png Graphic file (type png)
 <use ../images/mat-fig-7.png>
-Package pdftex.def Info: ../images/mat-fig-7.png  used on input line 57.
-(pdftex.def)             Requested size: 83.56198pt x 56.46078pt.
-<../images/conv-fig-8.png, id=111, 506.6428pt x 269.50688pt>
+Package pdftex.def Info: ../images/mat-fig-7.png  used on input line 58.
+(pdftex.def)             Requested size: 91.91869pt x 62.1072pt.
+ [25 <../images/edge-fig-2.png>] [26 <../images/matrix-fig-3.png> <../images/ma
+t-filter-fig-4.png>] [27 <../images/mat-fig-5.png> <../images/mat-fig-6.png>]
+<../images/conv-fig-8.png, id=117, 506.6428pt x 269.50688pt>
 File: ../images/conv-fig-8.png Graphic file (type png)
 <use ../images/conv-fig-8.png>
-Package pdftex.def Info: ../images/conv-fig-8.png  used on input line 63.
-(pdftex.def)             Requested size: 506.64157pt x 269.50621pt.
+Package pdftex.def Info: ../images/conv-fig-8.png  used on input line 64.
+(pdftex.def)             Requested size: 369.88582pt x 196.76305pt.
 
-Overfull \hbox (116.64157pt too wide) in paragraph at lines 63--64
-[][] 
- []
-
-[26 <../images/mat-fig-6.png> <../images/mat-fig-7.png>]
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-) [27 <../images/conv-fig-8.png>]
+) [28 <../images/mat-fig-7.png>]
 <../images/filters-fig-9.png, id=121, 198.7425pt x 104.64093pt>
 File: ../images/filters-fig-9.png Graphic file (type png)
 <use ../images/filters-fig-9.png>
-Package pdftex.def Info: ../images/filters-fig-9.png  used on input line 78.
-(pdftex.def)             Requested size: 198.742pt x 104.64066pt.
-<../images/cnn-fig-10.png, id=122, 782.925pt x 240.9pt>
+Package pdftex.def Info: ../images/filters-fig-9.png  used on input line 79.
+(pdftex.def)             Requested size: 341.43306pt x 179.79045pt.
+ [29 <../images/conv-fig-8.png>]
+<../images/cnn-fig-10.png, id=128, 782.925pt x 240.9pt>
 File: ../images/cnn-fig-10.png Graphic file (type png)
 <use ../images/cnn-fig-10.png>
-Package pdftex.def Info: ../images/cnn-fig-10.png  used on input line 82.
-(pdftex.def)             Requested size: 782.9231pt x 240.8994pt.
-
-Overfull \hbox (421.37584pt too wide) in paragraph at lines 82--83
-[][] 
- []
-
-[28 <../images/filters-fig-9.png> <../images/cnn-fig-10.png>] [29] [30]
-<../images/mat-fig-11.png, id=134, 82.05656pt x 56.46094pt>
+Package pdftex.def Info: ../images/cnn-fig-10.png  used on input line 83.
+(pdftex.def)             Requested size: 626.34085pt x 192.72025pt.
+ [30 <../images/filters-fig-9.png> <../images/cnn-fig-10.png>] [31]
+<../images/mat-fig-11.png, id=137, 82.05656pt x 56.46094pt>
 File: ../images/mat-fig-11.png Graphic file (type png)
 <use ../images/mat-fig-11.png>
-Package pdftex.def Info: ../images/mat-fig-11.png  used on input line 132.
-(pdftex.def)             Requested size: 82.05635pt x 56.46078pt.
-<../images/max-pool-fig-12.png, id=135, 204.01219pt x 70.01157pt>
+Package pdftex.def Info: ../images/mat-fig-11.png  used on input line 133.
+(pdftex.def)             Requested size: 90.26248pt x 62.1072pt.
+ [32]
+<../images/max-pool-fig-12.png, id=141, 204.01219pt x 70.01157pt>
 File: ../images/max-pool-fig-12.png Graphic file (type png)
 <use ../images/max-pool-fig-12.png>
-Package pdftex.def Info: ../images/max-pool-fig-12.png  used on input line 136.
+Package pdftex.def Info: ../images/max-pool-fig-12.png  used on input line 137.
 
-(pdftex.def)             Requested size: 204.01169pt x 70.01138pt.
+(pdftex.def)             Requested size: 224.4141pt x 77.01294pt.
+ [33 <../images/mat-fig-11.png> <../images/max-pool-fig-12.png>]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 149.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 148.
+LaTeX Warning: Command \textendash invalid in math mode on input line 149.
 
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 148.
-
-[31 <../images/mat-fig-11.png> <../images/max-pool-fig-12.png>]
-<../images/3D-conv-fig-13.png, id=139, 612.03656pt x 204.01219pt>
+<../images/3D-conv-fig-13.png, id=145, 612.03656pt x 204.01219pt>
 File: ../images/3D-conv-fig-13.png Graphic file (type png)
 <use ../images/3D-conv-fig-13.png>
-Package pdftex.def Info: ../images/3D-conv-fig-13.png  used on input line 165.
+Package pdftex.def Info: ../images/3D-conv-fig-13.png  used on input line 166.
 (pdftex.def)             Requested size: 489.62991pt x 163.20996pt.
- [32 <../images/3D-conv-fig-13.png>] [33] [34]
-<../images/complete-cnn.png, id=150, 951.555pt x 355.3275pt>
+[34] [35 <../images/3D-conv-fig-13.png>] [36]
+<../images/complete-cnn.png, id=157, 951.555pt x 355.3275pt>
 File: ../images/complete-cnn.png Graphic file (type png)
 <use ../images/complete-cnn.png>
-Package pdftex.def Info: ../images/complete-cnn.png  used on input line 209.
+Package pdftex.def Info: ../images/complete-cnn.png  used on input line 210.
 (pdftex.def)             Requested size: 761.24504pt x 284.26237pt.
 
-Overfull \hbox (36.79483pt too wide) in paragraph at lines 209--210
+Overfull \hbox (36.79483pt too wide) in paragraph at lines 210--211
 [][] 
  []
 
-[35 <../images/complete-cnn.png>]) [36] (./chapters/methodology/methodology.tex
-) [37
+[37 <../images/complete-cnn.png>]) [38] (./chapters/methodology/methodology.tex
+) [39
 
-] (./chapters/data/data.tex) [38
-
-]
-(./chapters/data_preparation_processing/data_preprocessing.tex) [39
+] (./chapters/data/data.tex) [40
 
 ]
-(./chapters/classification-analysis/analysis.tex) [40
+(./chapters/data_preparation_processing/data_preprocessing.tex) [41
 
 ]
-(./chapters/future_steps/future_steps.tex) [41
+(./chapters/classification-analysis/analysis.tex) [42
 
 ]
-(./chapters/bibliography/bibliography.tex) [42
+(./chapters/future_steps/future_steps.tex) [43
+
+]
+(./chapters/bibliography/bibliography.tex) [44
 
 ] (./chapters/appendix.tex)
-[43
+[45
 
 ] (./main.aux)
 
@@ -487,10 +483,10 @@ cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on main.pdf (44 pages, 2468101 bytes).
+Output written on main.pdf (46 pages, 2468643 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
+ 223 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

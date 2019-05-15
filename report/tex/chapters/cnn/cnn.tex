@@ -18,49 +18,50 @@ We begin by looking at edge detection as a simple example. The early layers of a
 In this section, we will focus on how the edges can be detected from an image. Suppose we are given the figure below:
 
 \begin{figure}
-  \includegraphics{edge-fig-1.png}
+  \caption{Image with Many Edges}
+  \includegraphics[width=150mm, scale=1.1]{edge-fig-1.png}
 \end{figure}
 
-As you can see, there are many vertical and horizontal edges in the image. Therefore, the first thing to be done is to detect these edges.
+As you can see, there are many vertical and horizontal edges in the figure above. Therefore, the first thing to be done is to detect these edges.
 
 \begin{figure}
-  \includegraphics{edge-fig-2.png}
+  \includegraphics[width=120mm]{edge-fig-2.png}
 \end{figure}
 
 How do we detect these edges? The first thing to do is assuming the image is BW, we represent it by a pixel map of gray scale values. Assume it is a 6 x 6 matrix.
 
 \begin{figure}
-  \includegraphics{matrix-fig-3.png}
+  \includegraphics[width=120mm]{matrix-fig-3.png}
 \end{figure}
 
 The values in these cells show pixel values in grayscale. Next, we convolve this 6 X 6 matrix with a 3 X 3 filter. They are also sometime referred to as feature detector or kernel.
 
 \begin{figure}
-  \includegraphics{mat-filter-fig-4.png}
+  \includegraphics[width=120mm]{mat-filter-fig-4.png}
 \end{figure}
 
 We take the feature filter and apply it over the original image. By placing it on the left upper corner, we get:
 
 \begin{figure}
-  \includegraphics{mat-fig-5.png}
+  \includegraphics[width=80mm, scale=1.1]{mat-fig-5.png}
 \end{figure}
 
 So, we take the first 3 X 3 matrix from the 6 X 6 image and multiply it with the filter. Now, the first element of the output (which is a 4 X 4 matrix) will be the sum of the element-wise product of these values, i.e. 3*1 + 0 + 1*-1 + 1*1 + 5*0 + 8*-1 + 2*1 + 7*0 + 2*-1 = -5. To calculate the second element of the 4 X 4 output, we will shift our filter one step towards the right and again get the sum of the element-wise product:
 
 \begin{figure}
-  \includegraphics{mat-fig-6.png}
+  \includegraphics[width=80mm, scale=1.1]{mat-fig-6.png}
 \end{figure}
 
 Similarly, we will convolve over the entire image and get a 4 X 4 output:
 
 \begin{figure}
-  \includegraphics{mat-fig-7.png}
+  \includegraphics[width=80mm, scale=1.1]{mat-fig-7.png}
 \end{figure}
 
 The shifting of the filter is also called a stride. A stride of 1 shifts it one cell to the right, while a stride of 2 will shift it 2 cells to the right. So, convolving a 6 X 6 input with a 3 X 3 filter gave us an output of 4 X 4. This output is sometimes referred to as feature map. While the above explains what convolve operation does, we will take another example which can clarify how edges can be detected. If high pixel values represent bright areas and low values represent darker areas of an image, then look at this following example.
 
 \begin{figure}
-  \includegraphics{conv-fig-8.png}
+  \includegraphics[width=130mm]{conv-fig-8.png}
 \end{figure}
 
 Higher pixel values represent the brighter portion of the image and the lower pixel values represent the darker portions. Looking at the 4 x 4 output matrix, we can detect a vertical edge in an image.
@@ -75,11 +76,11 @@ $$ [f*g](t) = \int_{0}^{t} f(\uptau) g(t - \uptau) \mathrm{d} \uptau $$
 
 A number of well-known filters or kernels have been used in prior work. Some common ones include Sharpen, Blue, Edge-Detect, or Edge-Enhance.
 
-\includegraphics{filters-fig-9.png}
+\includegraphics[width=120mm]{filters-fig-9.png}
 
 The Sobel filter puts a little bit more weight on the central pixels. Instead of using these filters, we can create our own as well and treat them as a parameter which the model will learn using backpropagation. In order to understand the next details of a CNN, let us take a look at the entire series of steps that happens on a single input image.
 \par
-\includegraphics{cnn-fig-10.png}
+\includegraphics[width=120mm, scale=0.8]{cnn-fig-10.png}
 
 It is important to note that a single image can generate many feature maps using different kernels. We do this so that different features are extracted out. This first step creates a convolutional layer consisting of many feature maps.
 \par
@@ -129,11 +130,11 @@ We now know how to use padded convolution. This way we don’t lose a lot of inf
 
 Pooling layers are generally used to reduce the size of the inputs and hence speed up the computation. Consider a 4 X 4 matrix as shown below:
 
-\includegraphics{mat-fig-11.png}
+\includegraphics[width=100mm, scale=1.1]{mat-fig-11.png}
 
 Applying max pooling on this matrix will result in a 2 X 2 output:
 
-\includegraphics{max-pool-fig-12.png}
+\includegraphics[width=100mm, scale=1.1]{max-pool-fig-12.png}
 
 It is called max pooling as for every consecutive 2 X 2 block, we take the maximum number. Here, we have applied a filter of size 2 and a stride of 2. These are the hyperparameters for the pooling layer. Apart from max pooling, we can also apply average pooling where, instead of taking the max of the numbers, we take their average. In summary, the hyperparameters for a pooling layer are:
 
@@ -165,7 +166,7 @@ So far we have taken a single grayscale image as input represented by n x m matr
   \includegraphics[width=130mm, scale=0.8]{3D-conv-fig-13.png}
 \end{figure}
 
-Since there are three channels in the input, the filter will consequently also have three channels. After convolution, the output shape is a 4 X 4 matrix feature map. So, the first element of the output is the sum of the element-wise product of the first 27 values from the input (9 values from each channel) and the 27 values from the filter. After that we convolve over the entire image.
+Since there are three channels in the input, the filter will consequently also have three channels. After convolution, the output shape is a 4 X 4 matrix feature map. So, the first element of the output is the sum of the element-wise product of the first 27 values from the input (9 values from each channel) and the 27 values from the filter. After that we convolve over the entire image, seen in Figure 5.
 \par
 As mentioned earlier, instead of using one kernel, we could use different kernels to extract different features. How do we do that? Let’s say the first filter will detect vertical edges and the second filter will detect horizontal edges from the image. If we use multiple filters, the output dimension will change. So, instead of having a 4 X 4 output as in the above example, we would have a 4 X 4 X 2 output (if we have used 2 filters).
 \par
@@ -202,7 +203,7 @@ No matter how big the image is, the parameters only depend on the filter size. T
 \par
 From the convolutional layer, we can do max pooling to create subsampling layer and can again do multiple convolutions and max pooling until we get a reasonable number of output numbers which can be fed to an Artificial Neural Network to learn.
 \par
-So here is what a full CNN would look like based on some of the examples we have used so far. In the figure, we also show notation for filter size, padding if used and the stride values.
+Here is what a full CNN would look like based on some of the examples we have used so far. In Figure 6, we also show notation for filter size, padding if used and the stride values.
 
 \begin{figure}
   \caption{A Complete CNN Example}
