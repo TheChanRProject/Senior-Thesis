@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  15 MAY 2019 03:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  15 MAY 2019 03:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -520,9 +520,217 @@ Package pdftex.def Info: ../images/pred-table.png  used on input line 41.
 (./chapters/future_steps/future_steps.tex [62
 
 ]) [63] [64]
-(./chapters/bibliography/bibliography.tex) [65
+(./chapters/bibliography/bibliography.tex
+./chapters/bibliography/bibliography.tex:13: Missing $ inserted.
+<inserted text> 
+                $
+l.13 ... https://en.wikipedia.org/wiki/Hindustani_
+                                                  classical_music
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-] (./main.aux)
+
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 17.
+
+
+
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 17
+.
+
+
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 18.
+
+
+
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 18
+.
+
+
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 20.
+
+
+
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 20
+.
+
+
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 21.
+
+
+
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 21
+.
+
+
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 22.
+
+
+
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 22
+.
+
+
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 24
+.
+
+
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 24
+.
+
+
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 26.
+
+
+
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 26
+.
+
+)
+./main.tex:77: Missing $ inserted.
+<inserted text> 
+                $
+l.77 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (58.51895pt too wide) in paragraph at lines 4--77
+\OT1/cmr/m/n/12 ai-isolating-vocals-from-stereo-music-using-convolutional-neura
+l-networks-210532383785
+ []
+
+
+Overfull \hbox (1023.83304pt too wide) in paragraph at lines 4--77
+\OT1/cmr/m/n/12 si-cal Mu-sic, 2019. Ac-cessed at https://en.wikipedia.org/wiki
+/Hindustani$[]\OML/cmm/m/it/12 lassical[]usicKumar; V:; Pandya; H:; Jawahar; C:
+V:; \OT1/cmr/m/n/12 2014\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 \\OML/cmm/m/it/12 Ide
+ntifyingragasinindianmusic[]; InternationalConferenceonPatternRecognition:Libro
+sa; \OT1/cmr/m/n/12 2019\OML/cmm/m/it/12 :Latest\OT1/cmr/m/n/12 0\OML/cmm/m/it/
+12 :\OT1/cmr/m/n/12 6\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 docume
+ntationAccessedathttps \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (677.41588pt too wide) in paragraph at lines 4--77
+\OML/cmm/m/it/12 ==librosa:github:io=librosa=McFee; B:; et:al:; \OT1/cmr/m/n/12
+ 2015\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 \\OML/cmm/m/it/12 librosa \OT1/cmr/m/n/1
+2 : \OML/cmm/m/it/12 Audioandmusicsignalanalysisinpython[]; Proceedingsofthe\OT
+1/cmr/m/n/12 14\OML/cmm/m/it/12 thPythoninScienceConference:Pandey; G:; Mishra;
+ C:; andIpe; P:; \OT1/cmr/m/n/12 2003\OML/cmm/m/it/12 :\OMS/cmsy/m/n/12 n\OML/c
+mm/m/it/12 Tansen \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (226.20496pt too wide) in paragraph at lines 4--77
+\OML/cmm/m/it/12 Asystemforautomaticragaidentification\OT1/cmr/m/n/12 "\OML/cmm
+/m/it/12 Proc:ofIndianInternationalConferenceonArtificialIntelligence; pp:\OT1/
+cmr/m/n/12 1350 \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (651.61797pt too wide) in paragraph at lines 4--77
+\OT1/cmr/m/n/12 1363\OML/cmm/m/it/12 :Pendekar; R:; Mahajan; S:P:; andMujumdar;
+ R:; \OT1/cmr/m/n/12 2013\OML/cmm/m/it/12 :\OMS/cmsy/m/n/12 n\OML/cmm/m/it/12 H
+armoniumRagaRecognition; \OT1/cmr/m/n/12 "\OML/cmm/m/it/12 Internationaljournal
+ofMachinelearningandComputing; vol:\OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ; No:\OT1/
+cmr/m/n/12 4\OML/cmm/m/it/12 ; August:Raaga\OT1/cmr/m/n/12 2019\OML/cmm/m/it/12
+ ; Accessedathttps \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (458.2939pt too wide) in paragraph at lines 4--77
+\OML/cmm/m/it/12 ==en:wikipedia:org=wiki=Raga:RamAvtarVir; \OT1/cmr/m/n/12 1999
+\OML/cmm/m/it/12 :\OMS/cmsy/m/n/12 n\OML/cmm/m/it/12 TheoryofIndianmusic\OT1/cm
+r/m/n/12 "\OML/cmm/m/it/12 ; PankajPublications; NewDelhi:Schoerkhuber; C:; and
+Klapuri; A:; \OT1/cmr/m/n/12 2010\OML/cmm/m/it/12 :\OMS/cmsy/m/n/12 n\OML/cmm/m
+/it/12 Constant \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (1705.31946pt too wide) in paragraph at lines 4--77
+\OML/cmm/m/it/12 Qtransformtoolboxformusicprocessing\OT1/cmr/m/n/12 "\OML/cmm/m
+/it/12 ; \OT1/cmr/m/n/12 7\OML/cmm/m/it/12 thSoundandMusicComputingConference; 
+Barcelona; Spain:Sharma; H; andBali; R:S:; \OT1/cmr/m/n/12 2015\OML/cmm/m/it/12
+ :\OMS/cmsy/m/n/12 n\OML/cmm/m/it/12 ComparisonofMLclassifiersforRagarecognitio
+n\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 ; InternationalJournalofScientificandResearc
+hPublications; October; Volume\OT1/cmr/m/n/12 5\OML/cmm/m/it/12 :Sharma; P:; \O
+T1/cmr/m/n/12 2018\OML/cmm/m/it/12 :AComprehensiveTutorialtolearnConvolutionalN
+euralNetworksfromScratchbyAnalyticsVaidyaaccessedathttps \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (122.95647pt too wide) in paragraph at lines 4--77
+\OML/cmm/m/it/12 network \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 cnn=Shetty; S:; 
+andAchary; K:; \OT1/cmr/m/n/12 2009\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 "\OML/cmm/
+m/it/12 RagaminingofIndianmusicbyextractingarohana \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (531.55714pt too wide) in paragraph at lines 4--77
+\OML/cmm/m/it/12 avarohanapattern\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 ; Internatio
+nalJournalofRecenttrendsinEngineering; vol:\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; 
+no:\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 :Smith; J:O:; \OT1/cmr/m/n/12 2011\\OML/cm
+m/m/it/12 SinusoidalPeakInterpolation[]; inSpectralAudioSignalProcessing; https
+ \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (174.07301pt too wide) in paragraph at lines 4--77
+\OML/cmm/m/it/12 ==ccrma:stanford:edu= []jos=sasp=Sinusoidal[]eak[]nterpolation
+:html; onlinebook; \OT1/cmr/m/n/12 2011\OML/cmm/m/it/12 edition; accessed\OT1/c
+mr/m/n/12 2015 \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (569.41176pt too wide) in paragraph at lines 4--77
+\OT1/cmr/m/n/12 06 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 15\OML/cmm/m/it/12 :Sri
+dhar; R:; andGeetha; T:; \OT1/cmr/m/n/12 2009\OML/cmm/m/it/12 :\OMS/cmsy/m/n/12
+ n\OML/cmm/m/it/12 Ragaidentificationofcarnaticmusicformusicinformationretrieva
+l\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 ; InternationalJournalofRecentTrendsinEngine
+ering; vol:\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; no:\OT1/cmr/m/n/12 1\OML/cmm/m/i
+t/12 ; pp:\OT1/cmr/m/n/12 571 \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (385.92398pt too wide) in paragraph at lines 4--77
+\OT1/cmr/m/n/12 574\OML/cmm/m/it/12 :Stevens; et:al:; \OT1/cmr/m/n/12 1937\OML/
+cmm/m/it/12 :Ascaleforthemeasurementofthepsychologicalmagnitudepitch:TheJournal
+oftheAcousticalSocietyofAmerica\OT1/cmr/m/n/12 8\OML/cmm/m/it/12 ; no:\OT1/cmr/
+m/n/12 3\OML/cmm/m/it/12 ; pp:\OT1/cmr/m/n/12 185 \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (318.8361pt too wide) in paragraph at lines 4--77
+\OT1/cmr/m/n/12 190\OML/cmm/m/it/12 :Tzanetakis; G:; Cook; P:; \OT1/cmr/m/n/12 
+2002\OML/cmm/m/it/12 :Musicalgenreclassificationofaudiosignals:IEEETransactions
+onSpeechandAudioProcessing:\OT1/cmr/m/n/12 10(5) :
+ []
+
+
+Overfull \hbox (0.93848pt too wide) in paragraph at lines 4--77
+\OT1/cmr/m/n/12 293 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 302\OML/cmm/m/it/12 :V
+askaJS; SowjanyaAM:; \OT1/cmr/m/n/12 2015\OML/cmm/m/it/12 :Clusteringdiabeticsd
+ataUsingM \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (3.5783pt too wide) in paragraph at lines 4--77
+\OML/cmm/m/it/12 CFICA:InternationalJournalofAdvancedComputerResearch:\OT1/cmr/
+m/n/12 5(20) : 327 \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (163.74403pt too wide) in paragraph at lines 4--77
+\OT1/cmr/m/n/12 33\OML/cmm/m/it/12 :Young; Set:al:; \OT1/cmr/m/n/12 1997\OML/cm
+m/m/it/12 :TheHTKbook:Vol:\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 :Cambridge \OT1/cmr
+/m/n/12 : \OML/cmm/m/it/12 EntropicCambridgeResearchLaboratory:Scikit \OMS/cmsy
+/m/n/12 ^^@
+ []
+
+[65
+
+] [66] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.74pt have occurred.
@@ -546,10 +754,10 @@ cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on main.pdf (66 pages, 2928399 bytes).
+Output written on main.pdf (67 pages, 2942446 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
+ 302 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
