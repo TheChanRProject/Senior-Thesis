@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557892252 "main.tex" "main.pdf" "main" 1557892256
+["pdflatex"] 1557893274 "main.tex" "main.pdf" "main" 1557893280
   "../images/3D-conv-fig-13.png" 1557818514 92447 fa9f7df07d376227d00297136979fba2 ""
   "../images/chroma-cqt.png" 1557814822 142083 7858304742dde5397d7ef31901e24307 ""
   "../images/cnn-fig-10.png" 1557818518 134351 3b67663e0e708cdfdd572db9dd5a61c6 ""
@@ -101,11 +101,11 @@
   "chapters/future_steps/future_steps.tex" 1557804474 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/introduction/introduction.tex" 1557822636 4172 96bdb16f1c2030ded464dfcd30469263 ""
   "chapters/librosa/librosa.tex" 1557819504 9491 bcfd42464d8fca76d29acfcee7ab85f3 ""
-  "chapters/methodology/methodology.tex" 1557804458 43 28f162e8f41163d2e123c986348ca862 ""
+  "chapters/methodology/methodology.tex" 1557893272 1531 6a0f0b1c85138c03205c07b32b8a2079 ""
   "chapters/ragas/ragas.tex" 1557804098 5190 bfd8b5935999945616ee12daa9cf3b5b ""
-  "main.aux" 1557892254 889 a7c36bc2b1832865bbefe0b4bbddbe2a ""
+  "main.aux" 1557893278 889 a7c36bc2b1832865bbefe0b4bbddbe2a ""
   "main.tex" 1557888372 2104 0ae91fa3a52318bd8cc8d48496f8c0ce ""
   (generated)
-  "main.aux"
-  "main.pdf"
   "main.log"
+  "main.pdf"
+  "main.aux"

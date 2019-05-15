@@ -1,2 +1,12 @@
 \doublespacing
 \setlength{\parindent}{1cm}
+
+\begin{flushleft}
+  \textbf{Design of an End to End Raga Data Pipeline}
+\end{flushleft}
+
+For this thesis, I had to think of a way to get a dataset of images that I can then use for training a convolutional neural network architecture. In order to go about this process, I decided to first understand how I will look at getting audio files in which I know the raga associated with each file. I will then convert each audio file into a chromagram with a short term Fourier transform in order to get spectral information as well as differences in pitch over the duration of the audio file. In order to get multiple chromagrams for each audio file, I decided to generate a chromagram for each minute of the audio file's duration. To make this possible, I had to use an advanced I\/O feature in Librosa known as blockwise reading. Since Librosa did not have blockwise reading on its own, I had to make use of another library in tandem with Librosa for making this possible. The name of this second library is known as PySoundFile which is a Python wrapper for SoundFile which makes blockwise-reading possible as well as a functionality for metadata information regarding any input audio file as long as it in a .wav format. This premise presented a challenge for me as it required a conversion from a compressed .mp3 format of medium quality into .wav to input files as arguments into SoundFile's functional interface.
+
+\begin{flushleft}
+  \textbf{Converting from MP3 to WAV}
+\end{flushleft}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2019 21:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -440,24 +440,24 @@ Overfull \hbox (36.79483pt too wide) in paragraph at lines 210--211
  []
 
 [37 <../images/complete-cnn.png>]) [38] (./chapters/methodology/methodology.tex
-) [39
+[39
 
-] (./chapters/data/data.tex) [40
-
-]
-(./chapters/data_preparation_processing/data_preprocessing.tex) [41
+]) [40] (./chapters/data/data.tex) [41
 
 ]
-(./chapters/classification-analysis/analysis.tex) [42
+(./chapters/data_preparation_processing/data_preprocessing.tex) [42
 
 ]
-(./chapters/future_steps/future_steps.tex) [43
+(./chapters/classification-analysis/analysis.tex) [43
 
 ]
-(./chapters/bibliography/bibliography.tex) [44
+(./chapters/future_steps/future_steps.tex) [44
+
+]
+(./chapters/bibliography/bibliography.tex) [45
 
 ] (./chapters/appendix.tex)
-[45
+[46
 
 ] (./main.aux)
 
@@ -483,10 +483,10 @@ cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on main.pdf (46 pages, 2468643 bytes).
+Output written on main.pdf (47 pages, 2470379 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
+ 226 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
