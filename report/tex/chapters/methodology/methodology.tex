@@ -10,3 +10,140 @@ For this thesis, I had to think of a way to get a dataset of images that I can t
 \begin{flushleft}
   \textbf{Converting from MP3 to WAV}
 \end{flushleft}
+
+Since MP3 files are a compressed, digital format of audio data based on the bit rate measured in kilobits per second [ref], I first decided to look into those values surrounding the mp3 quality from my initial dataset of mp3 files. Since the dataset is based on medium-quality mp3 files, I deduced that the bit rate, x, will be a range bounded between $ (128 < x < 320) $ kbps depending on the extracted mp3 files from the dataset's architect. Since I do not have control over the variance in bit rates nor time to generate a uniform dataset of mp3 files, I decided to go straight into the conversion of the mp3 format to the wav format. In order to do this, I made use of a Python module known as scikit-sound. Scikit-sound [ref] is a very useful utility as it makes it possible to read compressed audio file formats and encode them into wav format by making use of a third party utility known as FFMPEG. FFMPEG has a sampling algorithm to scale various audio formats based on the type of audio conversion that needs to be done. For the case of scaling from mp3 to wav in which the file size is much greater, FFMPEG samples at a standard sampling rate based on a default encoding from mp3 to wav. The encoding is not readily observable by the end user. FFMPEG is considered as the engine within scikit-sound's Sound class. From the software point of view, a simple instantiation of the Sound class with the input being the mp3 file will automatically read a wav file of the same file name while disregarding the .mp3 extension. Fortunately, FFMPEG is available across many operating systems and so I was able to install it using the Homebrew package manager within my Macbook. The uniform sampling rate from FFMPEG becomes a huge convenience when going into block reading which will be discussed more specifically in the next section.
+
+\begin{lstlisting}
+  # An instance of Scikit-Sound's Sound Class
+  # Python 3.6+
+  from sksound.sounds import Sound
+  import os
+
+  fileList = os.listdir("/path to raga audio files in mp3 format")
+  # dictionary to store each instantiated response
+  fileDict = {}
+  # iterating through every file
+  for file in fileList:
+    fileDict[file] = Sound(f"path/{file}")
+\end{lstlisting}
+
+Each wav file will be in the same directory as the path which contains the mp3 files. To alleviate this challenge, I created a directory structure as follows:
+
+\begin{figure}
+  \caption{Directory Structure for Audio Files}
+  \includegraphics{audio-directory.png}
+  \includegraphics{audio-directory2.png}
+\end{figure}
+
+Once the wav files finished generating for each specific raag, I ran the following bash commands in my Terminal to move all the wav files into the wav directory.
+
+\begin{lstlisting}
+  cd data/Hindustani/mp3/Bhairav && mv *.wav ../../wav/Bhairav
+  cd data/Hindustani/mp3/Bhup && mv *.wav ../../wav/Bhup
+  cd data/Hindustani/mp3/Des && mv *.wav ../../wav/Des
+  cd data/Hindustani/mp3/Yaman && mv *.wav ../../wav/Yaman
+\end{lstlisting}
+
+I also want to note that in order to perform proper version controlling of all my code commits, I tracked all mp3 and wav files using git-lfs so they would be known to Git and my GitHub repository as large files and will therefore be written to GitHub upon pushing commits with a higher file writing rate than that of normally pushed files.
+
+\begin{flushleft}
+  \textbf{Block-Wise Reading with PySoundFile}
+\end{flushleft}
+
+As mentioned before, I wanted to read the audio files as blocks of a certain size in order to generate stft-chromagrams for each minute in every audio file. To calculate the block size, b, I used the following equation in which sr refers to the sampling rate per second and n refers to the number of seconds:
+
+$$ b = sr * n $$
+
+To get the specific sampling rate which FFMPEG used for sampling, I used an attribute of PySoundFile.
+
+\begin{lstlisting}
+  # importing PySoundFile
+  import soundfile as sf
+  import os
+  bhairavList = os.listdir("data/Hindustani/wav/Bhairav")
+  for file in bhairavList:
+    rate = sf.info(f"data/Hindustani/wav/Bhairav/{file}").samplerate
+    print(rate)
+\end{lstlisting}
+
+The sampling rate that FFMPEG used for converting from mp3 to wav for the audio files corresponding to each raga is 44100 Hz. This means that in order to get a chromagram for each minute in the audio file, n would have to be equal to 60 since there are 60 seconds in a minute.
+
+My uniform blocksize computes to:
+
+$$ b = 44100 * 60 = 2646000 $$
+
+After getting this value, reading in audio files into Librosa in tandem with PySoundFile's functionality became a very trivial matter.
+
+\begin{lstlisting}
+import numpy as np
+# importing soundfile and librosa
+!pip install pysoundfile
+import soundfile as sf
+from librosa.feature import chroma_stft
+from librosa.display import specshow
+import matplotlib.pyplot as plt
+# Bhairav Block Wise Reading
+
+## Bhairav 1
+
+block_gen = sf.blocks('data/Hindustani/wav/Bhairav/bhairav1.wav', blocksize=2646000)
+rate = sf.info("data/Hindustani/wav/Bhairav/bhairav1.wav").samplerate
+info = sf.info("data/Hindustani/wav/Bhairav/bhairav1.wav")
+print(info)
+chromas = []
+
+for bl in block_gen:
+    y = np.mean(bl, axis=1)
+    chromas.append(chroma_stft(y, sr=rate))
+
+len(chromas)
+for j, chroma in enumerate(chromas):
+    specshow(chroma, x_axis="time", y_axis="chroma", vmin=0, vmax=1)
+    plt.title(f"Chromagram of Bhairav1_{j}")
+    plt.savefig(f"data/chroma_files/bhairav-chromas/bhairav1/bhairav1_{j}.png")
+\end{lstlisting}
+
+The above script allowed me to automate the generation of stft-chromagrams for every one minute block in the first audio recording of raga Bhairav. After thinking about the iterative process, I managed to build a more powerful automation script that would be able to generate chromagrams for every block for every audio file for a specific raga.  An example of this process is shown below to generate stft-chromagrams for all the audio files of the dataset I used for raga, Bhup.
+
+\begin{lstlisting}
+import os
+import numpy as np
+import soundfile as sf
+from librosa.feature import chroma_stft
+from librosa.display import specshow
+import matplotlib.pyplot as plt
+
+bhup_files = os.listdir("data/Hindustani/wav/Bhup")
+print(bhup_files)
+
+# Generating directories to denote each bhup audio file an iterative path
+
+for h,i in enumerate(bhup_files):
+    os.system(f"mkdir data/chroma_files/bhup-chromas/bhup{h+1}")
+
+# Creating an empty dictionary to store
+
+chroma_dict = {}
+
+for j in range(len(bhup_files)):
+
+    # building blocks for each file pertaining to the Bhup raga
+
+    rate = sf.info(f"data/Hindustani/wav/Bhup/bhup{j+1}.wav").samplerate
+    block_gen = sf.blocks(f"data/Hindustani/wav/Bhup/bhup{j+1}.wav", blocksize=rate*60)
+    chroma_dict[f"bhup{j+1}"] = []
+
+    # Computing the chroma_stft for every block in each Bhup audio file
+
+    for bl in block_gen:
+        y = np.mean(bl, axis=1)
+        chroma_dict[f"bhup{j+1}"].append(chroma_stft(y, sr=rate))
+
+    # Visualizing and saving the stft-chromagram for every block for every Bhup audio file
+    # naming convention: bhup[file enumeration]_[block number]
+
+    for k, chroma in enumerate(chroma_dict[f"bhup{j+1}"]):
+        specshow(chroma, x_axis="time", y_axis="chroma", vmin=0, vmax=1)
+        plt.title(f"Chromagram of Bhup{j+1}_{k+1}")
+        plt.savefig(f"data/chroma_files/bhup-chromas/bhup{j+1}/bhup{j+1}_{k+1}.png")
+\end{lstlisting}
