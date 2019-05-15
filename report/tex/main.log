@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  15 MAY 2019 02:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  15 MAY 2019 03:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -517,10 +517,10 @@ File: ../images/pred-table.png Graphic file (type png)
 Package pdftex.def Info: ../images/pred-table.png  used on input line 41.
 (pdftex.def)             Requested size: 284.52756pt x 349.19199pt.
  [59 <../images/results.png>]) [60 <../images/pred-table.png>] [61]
-(./chapters/future_steps/future_steps.tex) [62
+(./chapters/future_steps/future_steps.tex [62
 
-]
-(./chapters/bibliography/bibliography.tex) [63
+]) [63] [64]
+(./chapters/bibliography/bibliography.tex) [65
 
 ] (./main.aux)
 
@@ -546,10 +546,10 @@ cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on main.pdf (64 pages, 2925257 bytes).
+Output written on main.pdf (66 pages, 2928399 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
+ 298 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

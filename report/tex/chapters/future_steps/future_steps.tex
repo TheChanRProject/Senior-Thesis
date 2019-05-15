@@ -1,2 +1,16 @@
 \doublespacing
 \setlength{\parindent}{1cm}
+
+\begin{flushleft}
+  \textbf{Reflection of the Process}
+\end{flushleft}
+
+Overall, there were many challenges for me in this thesis, especially the quirks associated with both audio and image data. I learned a lot about the data engineering process, but not enough emphasis was given for the machine learning aspect of the project. I had very limited time to work with Tensorflow 2.0's version of Keras and not enough emphasis on understanding how to use the softmax function when making predictions for a multi-class problem. Another important aspect to note is that I did not employ any form of cross-validation or hyper-parameter tuning. Part of my reasoning behind this notion was the expense computationally as I was limited to the RAM and storage allocated to me via Google Colaboratory. I also did not have any variation in the testing set as all the samples in the test set were of raga Yaman.
+\par
+I definitely will work in the future to add more variation and set up a less limited computational infrastructure for neural network training to implement K-Fold cross validation and get predictions for samples in the testing set which will have the variation of including examples of all the ragas. I will also gain a stronger conceptual understanding of how the ImageDataGenerator works in order to use it more frequently for further multi-class image classification tasks. I also realized that I can add many more samples to each raga by generating more blocks from blockwise reading by changing the duration from a minute to 20 second chunks and to also see how the effects of other kinds of spectrograms from Librosa such as the mel-spectrogram, Tonnetz representation, or waveplot can be used as further spectral information to classify ragas and its implications on the bias-variance tradeoff as well as generalizability of ragas.
+
+\begin{flushleft}
+  \textbf{Future Work}
+\end{flushleft}
+
+In the future, I hope to be able to apply this proof of concept to expand to classifying more ragas. One challenge that may occur from this right away is class imbalance and so I look forward to applying sampling techniques such as SMOTE to overcome this. I also want to look at using various techniques for hyper-parameter tuning for more effective convolutional neural network architectures to handle the scalability associated with having more ragas to classify. Some techniques that I would like to explore include grid search with K-fold cross validation, optimization with reinforcement learning techniques, and also neural architecture search to end up with the best models for classifying all 120 Hindustani ragas in the COMP-STAT dataset. I also want to be able to apply transfer learning to see the differences in generalizability between Carnatic and Hindustani classical Indian music. I hope that once I have identified the best architectures for highly scalable networks, I can then deploy these models into mobile applications into a user interface similar to Shazam for composers and musicologists to immediately identify ragas in realtime. 
