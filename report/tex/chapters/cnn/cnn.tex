@@ -11,11 +11,11 @@ To understand Convolutional Neural Networks, we have to understand the following
 
 In computer vision, we have used diverse techniques in the past on images to do object detection and image classification. One major problem with computer vision problems is that the input data can get really big. Suppose an image is of the size 68 X 68 X 3. The input feature dimension then becomes 12,288. This will be even bigger if we have larger images (say, of size 720 X 720 X 3). Now, if we feed this big input to a neural network, the number of parameters will swell up to a very large number (depending on the number of hidden layers and hidden units). This will result in more computational and memory requirements – not something most of us can deal with. \par
 
-We begin by looking at edge detection as a simple example. The early layers of a neural network detect edges from an image. Deeper layers might be able to detect the cause of the objects and even more deeper layers might detect the cause of complete objects (like a person’s face). \par
+We begin by looking at edge detection as a simple example. The early layers of a neural network detect edges from an image (Sharma, 2018). Deeper layers might be able to detect the cause of the objects and even more deeper layers might detect the cause of complete objects (like a person’s face). \par
 
 \textbf{Edge Detection Problem}
 
-In this section, we will focus on how the edges can be detected from an image. Suppose we are given the figure below:
+In this section, we will focus on how the edges can be detected from an image. The examples provided here are adopted from an online tutorial (Sharma, 2018). Suppose we are given the figure below:
 
 \begin{figure}
   \caption{Image with Many Edges}
@@ -74,7 +74,7 @@ $$ [f*g](t) = \int_{0}^{t} f(\uptau) g(t - \uptau) \mathrm{d} \uptau $$
   \textbf{Kernel Types}
 \end{flushleft}
 
-A number of well-known filters or kernels have been used in prior work. Some common ones include Sharpen, Blue, Edge-Detect, or Edge-Enhance.
+A number of well-known filters or kernels have been used in prior work (Sharma, 2018). Some common ones include Sharpen, Blue, Edge-Detect, or Edge-Enhance.
 
 \includegraphics[width=120mm]{filters-fig-9.png}
 
@@ -166,7 +166,7 @@ So far we have taken a single grayscale image as input represented by n x m matr
   \includegraphics[width=130mm, scale=0.8]{3D-conv-fig-13.png}
 \end{figure}
 
-Since there are three channels in the input, the filter will consequently also have three channels. After convolution, the output shape is a 4 X 4 matrix feature map. So, the first element of the output is the sum of the element-wise product of the first 27 values from the input (9 values from each channel) and the 27 values from the filter. After that we convolve over the entire image, seen in Figure 5.
+Since there are three channels in the input, the filter will consequently also have three channels. After convolution, the output shape is a 4 X 4 matrix feature map. So, the first element of the output is the sum of the element-wise product of the first 27 values from the input (9 values from each channel) and the 27 values from the filter. After that we convolve over the entire image, seen in Figure 6.
 \par
 As mentioned earlier, instead of using one kernel, we could use different kernels to extract different features. How do we do that? Let’s say the first filter will detect vertical edges and the second filter will detect horizontal edges from the image. If we use multiple filters, the output dimension will change. So, instead of having a 4 X 4 output as in the above example, we would have a 4 X 4 X 2 output (if we have used 2 filters).
 \par
@@ -203,7 +203,7 @@ No matter how big the image is, the parameters only depend on the filter size. T
 \par
 From the convolutional layer, we can do max pooling to create subsampling layer and can again do multiple convolutions and max pooling until we get a reasonable number of output numbers which can be fed to an Artificial Neural Network to learn.
 \par
-Here is what a full CNN would look like based on some of the examples we have used so far. In Figure 6, we also show notation for filter size, padding if used and the stride values.
+Here is what a full CNN would look like based on some of the examples we have used so far. In Figure 7, we also show notation for filter size, padding if used and the stride values.
 
 \begin{figure}
   \caption{A Complete CNN Example}

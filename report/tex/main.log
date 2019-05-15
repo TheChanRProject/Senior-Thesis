@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  15 MAY 2019 01:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  15 MAY 2019 02:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -365,33 +365,33 @@ File: ../images/mat-fig-5.png Graphic file (type png)
 <use ../images/mat-fig-5.png>
 Package pdftex.def Info: ../images/mat-fig-5.png  used on input line 46.
 (pdftex.def)             Requested size: 121.73013pt x 122.55824pt.
-<../images/mat-fig-6.png, id=109, 110.66344pt x 111.41624pt>
+ [26 <../images/edge-fig-2.png>] [27 <../images/matrix-fig-3.png> <../images/ma
+t-filter-fig-4.png>]
+<../images/mat-fig-6.png, id=115, 110.66344pt x 111.41624pt>
 File: ../images/mat-fig-6.png Graphic file (type png)
 <use ../images/mat-fig-6.png>
 Package pdftex.def Info: ../images/mat-fig-6.png  used on input line 52.
 (pdftex.def)             Requested size: 121.73013pt x 122.55824pt.
-<../images/mat-fig-7.png, id=110, 83.5622pt x 56.46094pt>
+<../images/mat-fig-7.png, id=116, 83.5622pt x 56.46094pt>
 File: ../images/mat-fig-7.png Graphic file (type png)
 <use ../images/mat-fig-7.png>
 Package pdftex.def Info: ../images/mat-fig-7.png  used on input line 58.
 (pdftex.def)             Requested size: 91.91869pt x 62.1072pt.
- [26 <../images/edge-fig-2.png>] [27 <../images/matrix-fig-3.png> <../images/ma
-t-filter-fig-4.png>] [28 <../images/mat-fig-5.png> <../images/mat-fig-6.png>]
-<../images/conv-fig-8.png, id=120, 506.6428pt x 269.50688pt>
+<../images/conv-fig-8.png, id=117, 506.6428pt x 269.50688pt>
 File: ../images/conv-fig-8.png Graphic file (type png)
 <use ../images/conv-fig-8.png>
 Package pdftex.def Info: ../images/conv-fig-8.png  used on input line 64.
 (pdftex.def)             Requested size: 369.88582pt x 196.76305pt.
-
+ [28 <../images/mat-fig-5.png>] [29 <../images/mat-fig-6.png> <../images/mat-fi
+g-7.png>]
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-) [29 <../images/mat-fig-7.png>]
-<../images/filters-fig-9.png, id=124, 198.7425pt x 104.64093pt>
+) [30 <../images/conv-fig-8.png>]
+<../images/filters-fig-9.png, id=131, 198.7425pt x 104.64093pt>
 File: ../images/filters-fig-9.png Graphic file (type png)
 <use ../images/filters-fig-9.png>
 Package pdftex.def Info: ../images/filters-fig-9.png  used on input line 79.
 (pdftex.def)             Requested size: 341.43306pt x 179.79045pt.
- [30 <../images/conv-fig-8.png>]
 <../images/cnn-fig-10.png, id=132, 782.925pt x 240.9pt>
 File: ../images/cnn-fig-10.png Graphic file (type png)
 <use ../images/cnn-fig-10.png>
@@ -529,7 +529,7 @@ cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on main.pdf (61 pages, 2661579 bytes).
+Output written on main.pdf (61 pages, 2661717 bytes).
 PDF statistics:
  279 PDF objects out of 1000 (max. 8388607)
  168 compressed objects within 2 object streams
