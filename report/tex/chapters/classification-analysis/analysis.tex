@@ -38,9 +38,9 @@ results=pd.DataFrame({"file_name":filenames,
 
 \begin{figure}
   \caption{Sample Prediction Table}
-  \includegraphics{pred-table.png}
+  \includegraphics[width=100mm]{pred-table.png}
 \end{figure}
 
-As seen in the above result, the CNN did not output predictions for all the samples in the test set. The reason for this is due to the pred\_bool function which has its bound specified at being greater than 0.5, but this bound is not necessarily the best number to do for multi-class classification problems.
+As seen in the figure above, the CNN did not output predictions for all the samples in the test set. The reason for this is due to the pred\_bool function which has its bound specified at being greater than 0.5, but this bound is not necessarily the best number to do for multi-class classification problems.
 \par
-In the final chapter, I talk about my reflection on ways to improve the machine learning analysis as well as future steps for moving from a proof of concept into an intelligent raaga classification software that can be deployed into mobile applications as a tool for musicologists and composers. 
+In the final chapter, I talk about my reflection on ways to improve the machine learning analysis as well as future steps for moving from a proof of concept into an intelligent raaga classification software that can be deployed into mobile applications as a tool for musicologists and composers.
