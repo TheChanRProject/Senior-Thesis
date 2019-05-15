@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  15 MAY 2019 01:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  15 MAY 2019 01:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -232,7 +232,7 @@ File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 ) [4
 
 ] [5]
-[6]) [7] (./chapters/librosa/librosa.tex [8
+[6]) [7] [8] (./chapters/librosa/librosa.tex [9
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -241,19 +241,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 10.
- [9] [10]
+ [10] [11]
 Overfull \hbox (2.88689pt too wide) in paragraph at lines 50--51
 \OT1/cmr/m/n/12 of Scho-erkhu-ber and Kla-puri [ref] is pro-vided, which pro-du
 ces logarithmically-
  []
 
-[11] [12] [13]
-<../images/stft-specgram.png, id=52, 422.57875pt x 282.05376pt>
+[12] [13] [14]
+<../images/stft-specgram.png, id=55, 422.57875pt x 282.05376pt>
 File: ../images/stft-specgram.png Graphic file (type png)
 <use ../images/stft-specgram.png>
 Package pdftex.def Info: ../images/stft-specgram.png  used on input line 69.
 (pdftex.def)             Requested size: 422.57771pt x 282.05305pt.
-<../images/mel-spectrogram.png, id=54, 423.5825pt x 282.05376pt>
+<../images/mel-spectrogram.png, id=57, 423.5825pt x 282.05376pt>
 File: ../images/mel-spectrogram.png Graphic file (type png)
 <use ../images/mel-spectrogram.png>
 Package pdftex.def Info: ../images/mel-spectrogram.png  used on input line 71.
@@ -271,12 +271,12 @@ Overfull \hbox (33.58147pt too wide) in paragraph at lines 69--72
 
 LaTeX Warning: Float too large for page by 62.43942pt on input line 72.
 
-<../images/chroma-cqt.png, id=55, 404.51125pt x 282.05376pt>
+<../images/chroma-cqt.png, id=58, 404.51125pt x 282.05376pt>
 File: ../images/chroma-cqt.png Graphic file (type png)
 <use ../images/chroma-cqt.png>
 Package pdftex.def Info: ../images/chroma-cqt.png  used on input line 75.
 (pdftex.def)             Requested size: 404.51025pt x 282.05305pt.
-<../images/tonnetz.png, id=56, 417.56pt x 283.0575pt>
+<../images/tonnetz.png, id=59, 417.56pt x 283.0575pt>
 File: ../images/tonnetz.png Graphic file (type png)
 <use ../images/tonnetz.png>
 Package pdftex.def Info: ../images/tonnetz.png  used on input line 77.
@@ -294,7 +294,7 @@ Overfull \hbox (27.55896pt too wide) in paragraph at lines 75--78
 
 LaTeX Warning: Float too large for page by 63.44316pt on input line 78.
 
-<../images/waveplot.png, id=57, 427.5975pt x 282.05376pt>
+<../images/waveplot.png, id=60, 427.5975pt x 282.05376pt>
 File: ../images/waveplot.png Graphic file (type png)
 <use ../images/waveplot.png>
 Package pdftex.def Info: ../images/waveplot.png  used on input line 81.
@@ -304,15 +304,15 @@ Overfull \hbox (37.59645pt too wide) in paragraph at lines 81--82
 [][] 
  []
 
-) [14] [15 <../images/stft-specgram.png> <../images/mel-spectrogram.png>]
-[16 <../images/chroma-cqt.png> <../images/tonnetz.png>] [17 <../images/waveplot
+) [15] [16 <../images/stft-specgram.png> <../images/mel-spectrogram.png>]
+[17 <../images/chroma-cqt.png> <../images/tonnetz.png>] [18 <../images/waveplot
 .png>] (./chapters/background/background.tex
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-) [18
+) [19
 
-] [19]
-<../images/vocal-stft.png, id=82, 867.24pt x 289.08pt>
+] [20]
+<../images/vocal-stft.png, id=85, 867.24pt x 289.08pt>
 File: ../images/vocal-stft.png Graphic file (type png)
 <use ../images/vocal-stft.png>
 Package pdftex.def Info: ../images/vocal-stft.png  used on input line 16.
@@ -328,7 +328,7 @@ Overfull \hbox (2.38065pt too wide) in paragraph at lines 24--24
 p,', `k', `s', breaths,
  []
 
-[20] [21 <../images/vocal-stft.png>]) [22] (./chapters/cnn/cnn.tex
+[21] [22 <../images/vocal-stft.png>]) [23] (./chapters/cnn/cnn.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
@@ -336,10 +336,10 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
- [23
+ [24
 
 ]
-<../images/edge-fig-1.png, id=97, 118.94438pt x 71.51718pt>
+<../images/edge-fig-1.png, id=101, 118.94438pt x 71.51718pt>
 File: ../images/edge-fig-1.png Graphic file (type png)
 <use ../images/edge-fig-1.png>
 Package pdftex.def Info: ../images/edge-fig-1.png  used on input line 22.
@@ -349,41 +349,41 @@ Overfull \hbox (36.87646pt too wide) in paragraph at lines 22--23
 [][] 
  []
 
-<../images/edge-fig-2.png, id=98, 291.33844pt x 179.16937pt>
+<../images/edge-fig-2.png, id=102, 291.33844pt x 179.16937pt>
 File: ../images/edge-fig-2.png Graphic file (type png)
 <use ../images/edge-fig-2.png>
 Package pdftex.def Info: ../images/edge-fig-2.png  used on input line 28.
 (pdftex.def)             Requested size: 341.43306pt x 209.99365pt.
-[24 <../images/edge-fig-1.png>]
-<../images/matrix-fig-3.png, id=103, 129.48375pt x 89.58469pt>
+[25 <../images/edge-fig-1.png>]
+<../images/matrix-fig-3.png, id=106, 129.48375pt x 89.58469pt>
 File: ../images/matrix-fig-3.png Graphic file (type png)
 <use ../images/matrix-fig-3.png>
 Package pdftex.def Info: ../images/matrix-fig-3.png  used on input line 34.
 (pdftex.def)             Requested size: 341.43306pt x 236.25002pt.
-<../images/mat-filter-fig-4.png, id=104, 262.73157pt x 114.4275pt>
+<../images/mat-filter-fig-4.png, id=107, 262.73157pt x 114.4275pt>
 File: ../images/mat-filter-fig-4.png Graphic file (type png)
 <use ../images/mat-filter-fig-4.png>
 Package pdftex.def Info: ../images/mat-filter-fig-4.png  used on input line 40.
 
 (pdftex.def)             Requested size: 341.43306pt x 148.71033pt.
-<../images/mat-fig-5.png, id=105, 110.66344pt x 111.41624pt>
+<../images/mat-fig-5.png, id=108, 110.66344pt x 111.41624pt>
 File: ../images/mat-fig-5.png Graphic file (type png)
 <use ../images/mat-fig-5.png>
 Package pdftex.def Info: ../images/mat-fig-5.png  used on input line 46.
 (pdftex.def)             Requested size: 121.73013pt x 122.55824pt.
-<../images/mat-fig-6.png, id=106, 110.66344pt x 111.41624pt>
+<../images/mat-fig-6.png, id=109, 110.66344pt x 111.41624pt>
 File: ../images/mat-fig-6.png Graphic file (type png)
 <use ../images/mat-fig-6.png>
 Package pdftex.def Info: ../images/mat-fig-6.png  used on input line 52.
 (pdftex.def)             Requested size: 121.73013pt x 122.55824pt.
-<../images/mat-fig-7.png, id=107, 83.5622pt x 56.46094pt>
+<../images/mat-fig-7.png, id=110, 83.5622pt x 56.46094pt>
 File: ../images/mat-fig-7.png Graphic file (type png)
 <use ../images/mat-fig-7.png>
 Package pdftex.def Info: ../images/mat-fig-7.png  used on input line 58.
 (pdftex.def)             Requested size: 91.91869pt x 62.1072pt.
- [25 <../images/edge-fig-2.png>] [26 <../images/matrix-fig-3.png> <../images/ma
-t-filter-fig-4.png>] [27 <../images/mat-fig-5.png> <../images/mat-fig-6.png>]
-<../images/conv-fig-8.png, id=117, 506.6428pt x 269.50688pt>
+ [26 <../images/edge-fig-2.png>] [27 <../images/matrix-fig-3.png> <../images/ma
+t-filter-fig-4.png>] [28 <../images/mat-fig-5.png> <../images/mat-fig-6.png>]
+<../images/conv-fig-8.png, id=120, 506.6428pt x 269.50688pt>
 File: ../images/conv-fig-8.png Graphic file (type png)
 <use ../images/conv-fig-8.png>
 Package pdftex.def Info: ../images/conv-fig-8.png  used on input line 64.
@@ -391,45 +391,45 @@ Package pdftex.def Info: ../images/conv-fig-8.png  used on input line 64.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-) [28 <../images/mat-fig-7.png>]
-<../images/filters-fig-9.png, id=121, 198.7425pt x 104.64093pt>
+) [29 <../images/mat-fig-7.png>]
+<../images/filters-fig-9.png, id=124, 198.7425pt x 104.64093pt>
 File: ../images/filters-fig-9.png Graphic file (type png)
 <use ../images/filters-fig-9.png>
 Package pdftex.def Info: ../images/filters-fig-9.png  used on input line 79.
 (pdftex.def)             Requested size: 341.43306pt x 179.79045pt.
- [29 <../images/conv-fig-8.png>]
-<../images/cnn-fig-10.png, id=128, 782.925pt x 240.9pt>
+ [30 <../images/conv-fig-8.png>]
+<../images/cnn-fig-10.png, id=132, 782.925pt x 240.9pt>
 File: ../images/cnn-fig-10.png Graphic file (type png)
 <use ../images/cnn-fig-10.png>
 Package pdftex.def Info: ../images/cnn-fig-10.png  used on input line 83.
 (pdftex.def)             Requested size: 626.34085pt x 192.72025pt.
- [30 <../images/filters-fig-9.png> <../images/cnn-fig-10.png>] [31]
-<../images/mat-fig-11.png, id=137, 82.05656pt x 56.46094pt>
+ [31 <../images/filters-fig-9.png> <../images/cnn-fig-10.png>] [32]
+<../images/mat-fig-11.png, id=140, 82.05656pt x 56.46094pt>
 File: ../images/mat-fig-11.png Graphic file (type png)
 <use ../images/mat-fig-11.png>
 Package pdftex.def Info: ../images/mat-fig-11.png  used on input line 133.
 (pdftex.def)             Requested size: 90.26248pt x 62.1072pt.
- [32]
-<../images/max-pool-fig-12.png, id=141, 204.01219pt x 70.01157pt>
+ [33]
+<../images/max-pool-fig-12.png, id=144, 204.01219pt x 70.01157pt>
 File: ../images/max-pool-fig-12.png Graphic file (type png)
 <use ../images/max-pool-fig-12.png>
 Package pdftex.def Info: ../images/max-pool-fig-12.png  used on input line 137.
 
 (pdftex.def)             Requested size: 224.4141pt x 77.01294pt.
- [33 <../images/mat-fig-11.png> <../images/max-pool-fig-12.png>]
+ [34 <../images/mat-fig-11.png> <../images/max-pool-fig-12.png>]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 149.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 149.
 
-<../images/3D-conv-fig-13.png, id=145, 612.03656pt x 204.01219pt>
+<../images/3D-conv-fig-13.png, id=148, 612.03656pt x 204.01219pt>
 File: ../images/3D-conv-fig-13.png Graphic file (type png)
 <use ../images/3D-conv-fig-13.png>
 Package pdftex.def Info: ../images/3D-conv-fig-13.png  used on input line 166.
 (pdftex.def)             Requested size: 489.62991pt x 163.20996pt.
-[34] [35 <../images/3D-conv-fig-13.png>] [36]
-<../images/complete-cnn.png, id=157, 951.555pt x 355.3275pt>
+[35] [36 <../images/3D-conv-fig-13.png>] [37]
+<../images/complete-cnn.png, id=160, 951.555pt x 355.3275pt>
 File: ../images/complete-cnn.png Graphic file (type png)
 <use ../images/complete-cnn.png>
 Package pdftex.def Info: ../images/complete-cnn.png  used on input line 210.
@@ -439,16 +439,16 @@ Overfull \hbox (36.79483pt too wide) in paragraph at lines 210--211
 [][] 
  []
 
-[37 <../images/complete-cnn.png>]) [38] (./chapters/methodology/methodology.tex
-[39
+[38 <../images/complete-cnn.png>]) [39] (./chapters/methodology/methodology.tex
+[40
 
-] [40] [41]
-<../images/audio-directory.png, id=174, 210.7875pt x 638.385pt>
+] [41] [42]
+<../images/audio-directory.png, id=178, 210.7875pt x 638.385pt>
 File: ../images/audio-directory.png Graphic file (type png)
 <use ../images/audio-directory.png>
 Package pdftex.def Info: ../images/audio-directory.png  used on input line 34.
 (pdftex.def)             Requested size: 210.78699pt x 638.38342pt.
-<../images/audio-directory2.png, id=175, 170.6375pt x 233.87375pt>
+<../images/audio-directory2.png, id=179, 170.6375pt x 233.87375pt>
 File: ../images/audio-directory2.png Graphic file (type png)
 <use ../images/audio-directory2.png>
 Package pdftex.def Info: ../images/audio-directory2.png  used on input line 35.
@@ -458,8 +458,8 @@ Package pdftex.def Info: ../images/audio-directory2.png  used on input line 35.
 
 LaTeX Warning: Float too large for page by 111.55005pt on input line 36.
 
-[42] [43 <../images/audio-directory.png> <../images/audio-directory2.png>]
-[44] [45]
+[43] [44 <../images/audio-directory.png> <../images/audio-directory2.png>]
+[45] [46]
 Overfull \hbox (61.84671pt too wide) in paragraph at lines 103--104
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][]  
@@ -471,26 +471,26 @@ Overfull \hbox (23.45708pt too wide) in paragraph at lines 106--107
 of stft-chromagrams
  []
 
-[46]
+[47]
 Overfull \hbox (1.36508pt too wide) in paragraph at lines 132--133
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][]  
  []
 
-[47]
+[48]
 Overfull \hbox (88.29053pt too wide) in paragraph at lines 148--149
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
 
  []
 
-<../images/bhairav-chroma-tree.png, id=197, 221.82875pt x 503.8825pt>
+<../images/bhairav-chroma-tree.png, id=201, 221.82875pt x 503.8825pt>
 File: ../images/bhairav-chroma-tree.png Graphic file (type png)
 <use ../images/bhairav-chroma-tree.png>
 Package pdftex.def Info: ../images/bhairav-chroma-tree.png  used on input line 
 155.
 (pdftex.def)             Requested size: 221.82819pt x 503.88127pt.
-<../images/bhup-chroma-tree.png, id=198, 217.81375pt x 439.6425pt>
+<../images/bhup-chroma-tree.png, id=202, 217.81375pt x 439.6425pt>
 File: ../images/bhup-chroma-tree.png Graphic file (type png)
 <use ../images/bhup-chroma-tree.png>
 Package pdftex.def Info: ../images/bhup-chroma-tree.png  used on input line 156
@@ -501,15 +501,15 @@ Overfull \hbox (52.25247pt too wide) in paragraph at lines 155--157
 [][] [] 
  []
 
-[48] [49 <../images/bhairav-chroma-tree.png> <../images/bhup-chroma-tree.png>]
-[50] [51] [52] [53] [54] [55]) [56]
-(./chapters/classification-analysis/analysis.tex) [57
+[49] [50 <../images/bhairav-chroma-tree.png> <../images/bhup-chroma-tree.png>]
+[51] [52] [53] [54] [55] [56]) [57]
+(./chapters/classification-analysis/analysis.tex) [58
 
 ]
-(./chapters/future_steps/future_steps.tex) [58
+(./chapters/future_steps/future_steps.tex) [59
 
 ]
-(./chapters/bibliography/bibliography.tex) [59
+(./chapters/bibliography/bibliography.tex) [60
 
 ] (./main.aux)
 
@@ -535,10 +535,10 @@ cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on main.pdf (60 pages, 2660608 bytes).
+Output written on main.pdf (61 pages, 2661014 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
+ 279 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
