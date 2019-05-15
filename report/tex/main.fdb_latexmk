@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557907047 "main.tex" "main.pdf" "main" 1557907052
+["pdflatex"] 1557908588 "main.tex" "main.pdf" "main" 1557908592
   "../images/3D-conv-fig-13.png" 1557818514 92447 fa9f7df07d376227d00297136979fba2 ""
   "../images/audio-directory.png" 1557896896 153621 ea4f8902bca677d4f27cd8628c93e3f1 ""
   "../images/audio-directory2.png" 1557896904 34887 3555a9c3598ce36972cb3466e2b9d564 ""
@@ -95,21 +95,18 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "chapters/appendix.tex" 1553728710 10 3c684b180bbb475dceb509de20fb1bd7 ""
   "chapters/background/background.tex" 1557822356 5596 d5c7990fef558ccb1701ade547228dc0 ""
   "chapters/bibliography/bibliography.tex" 1557804564 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/classification-analysis/analysis.tex" 1557804516 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/cnn/cnn.tex" 1557892248 13286 e89e9a72e4ee9487e93e5cbd66162cec ""
-  "chapters/data/data.tex" 1557804504 43 28f162e8f41163d2e123c986348ca862 ""
-  "chapters/data_preparation_processing/data_preprocessing.tex" 1557804490 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/future_steps/future_steps.tex" 1557804474 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/introduction/introduction.tex" 1557822636 4172 96bdb16f1c2030ded464dfcd30469263 ""
   "chapters/librosa/librosa.tex" 1557819504 9491 bcfd42464d8fca76d29acfcee7ab85f3 ""
-  "chapters/methodology/methodology.tex" 1557907046 12987 5406cbef545b0ff34a3a96eaf1ef8c2b ""
+  "chapters/methodology/methodology.tex" 1557908552 16110 291b642f17536644d2e8f1fa8b851fec ""
   "chapters/ragas/ragas.tex" 1557804098 5190 bfd8b5935999945616ee12daa9cf3b5b ""
-  "main.aux" 1557907050 1145 cc1df3cc866fccbc9ad4e18493b5b22c ""
-  "main.tex" 1557888372 2104 0ae91fa3a52318bd8cc8d48496f8c0ce ""
+  "main.aux" 1557908590 1145 4266f8da969dd41c6499dd6442a078e0 ""
+  "main.tex" 1557908586 1842 348bba514c5b337c3513465afa11f7fb ""
   (generated)
-  "main.pdf"
   "main.aux"
   "main.log"
+  "main.pdf"

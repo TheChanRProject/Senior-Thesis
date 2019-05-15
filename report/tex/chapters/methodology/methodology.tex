@@ -5,7 +5,7 @@
   \textbf{Design of an End to End Raga Data Pipeline}
 \end{flushleft}
 
-For this thesis, I had to think of a way to get a dataset of images that I can then use for training a convolutional neural network architecture. In order to go about this process, I decided to first understand how I will look at getting audio files in which I know the raga associated with each file. I will then convert each audio file into a chromagram with a short term Fourier transform in order to get spectral information as well as differences in pitch over the duration of the audio file. In order to get multiple chromagrams for each audio file, I decided to generate a chromagram for each minute of the audio file's duration. To make this possible, I had to use an advanced I\/O feature in Librosa known as blockwise reading. Since Librosa did not have blockwise reading on its own, I had to make use of another library in tandem with Librosa for making this possible. The name of this second library is known as PySoundFile which is a Python wrapper for SoundFile which makes blockwise-reading possible as well as a functionality for metadata information regarding any input audio file as long as it in a .wav format. This premise presented a challenge for me as it required a conversion from a compressed .mp3 format of medium quality into .wav to input files as arguments into SoundFile's functional interface.
+For this thesis, I had to think of a way to get a dataset of images that I can then use for training a convolutional neural network architecture. In order to go about this process, I decided to first understand how I will look at getting audio files in which I know the raga associated with each file. I obtained the COMP-STAT Indian Raga Music Dataset [ref] from Dr. Gulati. This contains both samples of Hindustani classical and Carnatic classical music. My preference was to work with the Hindustani classical music dataset. This dataset consisted of over 100 ragas and various mp3 files for each raga. Since my goal in my thesis is to show a proof of concept, I chose 4 ragas from this dataset: Bhairav, Bhup, Des, and Yaman. Within each of these ragas, there were multiple mp3 clips some of which were 8 minutes long and some were even 30 minutes long. After getting this data, I converted each audio file into chromagrams with a short term Fourier transform in order to get spectral information as well as differences in pitch over the duration of the audio file. In order to get multiple chromagrams for each audio file, I decided to generate a chromagram for each minute of the audio file's duration. To make this possible, I had to use an advanced I\/O feature in Librosa known as blockwise reading. Since Librosa did not have blockwise reading on its own, I had to make use of another library in tandem with Librosa for making this possible. The name of this second library is known as PySoundFile which is a Python wrapper for SoundFile which makes blockwise-reading possible as well as a functionality for metadata information regarding any input audio file as long as it in a .wav format. This premise presented a challenge for me as it required a conversion from a compressed .mp3 format of medium quality into .wav to input files as arguments into SoundFile's functional interface.
 
 \begin{flushleft}
   \textbf{Converting from MP3 to WAV}
@@ -222,9 +222,15 @@ Now that I had my CSV file and image data, I moved over from my local environmen
 \par
 In order to make this transition simple, I created another GitHub repository which contains 780 stft-chromagram images as well as the csv file pertaining to labels that correspond in order of the files. Since Git and several popular Python modules are already pre-installed in Google Colaboratory's Jupyter notebook interface, I easily cloned my repository into Colaboratory and changed the notebook's base directory to the repository's directory for ease of file reading. The next step is to build a convolutional neural network architecture.
 \par
-The resolution for each stft-chromagram is 432 X 288 pixels therefore I decided to add in more than just two convolutional layers in the architecture. The architecture I decided to use is 2 convolutional layers, a max pooling layer, another set of two convolutional layers, and then another max pooling layer and then a connection from the second max pooling layer to the hidden layer of 512 neurons and then a final connection from the hidden layer to an output layer of 4 neurons where the classification decision is made by the softmax activation function. All other layers have a rectified linear unit activation function. This architecture is shown in Tensorflow's 2.0 Keras module below.
+The resolution for each stft-chromagram is 432 X 288 pixels therefore I decided to add in more than just two convolutional layers in the architecture. The architecture I decided to use is 2 convolutional layers, a max pooling layer, another set of two convolutional layers, and then another max pooling layer and then a connection from the second max pooling layer to the hidden layer of 512 neurons and then a final connection from the hidden layer to an output layer of 4 neurons where the classification decision is made by the softmax activation function. All other layers have a rectified linear unit activation function. The loss function used was categorical\_crossentropy and optimization was performed using the Adam optimizer. This architecture is shown in Tensorflow's 2.0 Keras module below.
 
 \begin{lstlisting}
+import tensorflow
+# Importing Tensorflow's keras wrapper
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout, Activation, BatchNormalization
+from tensorflow.keras import regularizers, optimizers
+
 classifier = Sequential()
 classifier.add(Conv2D(32, (3, 3), padding='same', input_shape = (432, 288, 3), activation = 'relu'))
 classifier.add(Conv2D(32, (3, 3), activation = 'relu'))
@@ -240,3 +246,64 @@ classifier.add(Dropout(rate=1-0.5))
 classifier.add(Dense(units = 4, activation = 'softmax'))
 classifier.compile(optimizer = 'adam', loss = 'categorical_crossentropy', metrics = ['accuracy'])
 \end{lstlisting}
+
+In order to separate the image data into training, testing, and validation sets, I made use of the image submodule in Keras's preprocessing module by instantiating the ImageDataGenerator class for the selection of images into training and testing sets. The first 680 images were selected for training, 50 images after the first 680 were selected for validation, and the last 50 images were chosen for testing. The script below shows this class instantiation with a rescaling of every pixel value.
+
+\begin{lstlisting}
+import pandas as pd
+df = pd.read_csv("csv/miml_labels_2.csv")
+df.drop(list(df.columns)[0], axis=1, inplace=True)
+df.head()
+df["raga"]=df["raga"].apply(lambda x:x.split(","))
+df.head()
+
+train_generator=datagen.flow_from_dataframe(
+dataframe=df[:680],
+directory="./data",
+x_col="file_name",
+y_col="raga",
+batch_size=32,
+seed=42,
+shuffle=True,
+class_mode="categorical",
+classes=["bhairav", "bhup", "des", "yaman"],
+target_size=(432,288))
+
+valid_generator=test_datagen.flow_from_dataframe(
+dataframe=df[680:730],
+directory="./data",
+x_col="file_name",
+y_col="raga",
+batch_size=32,
+seed=42,
+shuffle=True,
+class_mode="categorical",
+classes=["bhairav", "bhup", "des", "yaman"],
+target_size=(432,288))
+
+test_generator=test_datagen.flow_from_dataframe(
+dataframe=df[730:],
+directory="./data",
+x_col="file_name",
+batch_size=1,
+seed=42,
+shuffle=False,
+class_mode=None,
+target_size=(432,288))
+\end{lstlisting}
+
+The training started after running the script below which uses the fit\_generator method of the CNN in Keras with a specified step size for training and validation per epoch for a total of 10 epochs.
+
+\begin{lstlisting}
+STEP_SIZE_TRAIN=train_generator.n//train_generator.batch_size
+STEP_SIZE_VALID=valid_generator.n//valid_generator.batch_size
+STEP_SIZE_TEST=test_generator.n//test_generator.batch_size
+classifier.fit_generator(generator=train_generator,
+                  steps_per_epoch=STEP_SIZE_TRAIN,
+                  validation_data=valid_generator,
+                  validation_steps=STEP_SIZE_VALID,
+                  epochs=10
+)
+\end{lstlisting}
+
+Results and an analysis of the machine learning aspect will be discussed in the next chapter.
