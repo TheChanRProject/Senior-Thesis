@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  15 MAY 2019 01:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  15 MAY 2019 01:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -241,13 +241,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 10.
- [10] [11]
-Overfull \hbox (2.88689pt too wide) in paragraph at lines 50--51
-\OT1/cmr/m/n/12 of Scho-erkhu-ber and Kla-puri [ref] is pro-vided, which pro-du
-ces logarithmically-
- []
-
-[12] [13] [14]
+ [10] [11] [12] [13] [14]
 <../images/stft-specgram.png, id=55, 422.57875pt x 282.05376pt>
 File: ../images/stft-specgram.png Graphic file (type png)
 <use ../images/stft-specgram.png>
@@ -535,7 +529,7 @@ cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on main.pdf (61 pages, 2661014 bytes).
+Output written on main.pdf (61 pages, 2661242 bytes).
 PDF statistics:
  279 PDF objects out of 1000 (max. 8388607)
  168 compressed objects within 2 object streams
