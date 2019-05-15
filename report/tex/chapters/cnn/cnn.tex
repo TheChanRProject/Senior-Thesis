@@ -148,3 +148,52 @@ If the input of the pooling layer is nh X nw X nc, then the output will be:
 $$ \frac{(n_h – f)}{s + 1} \times \frac{(n_w – f)}{s + 1} \times n_c $$
 
 In fact what max pooling does is that it takes features from convolutional layer and tries to pool all the relevant features and discard those that doesn’t help us in identification purposes.
+
+\begin{flushleft}
+  \textbf{Convolution for Colored Images: A Third Dimension}
+\end{flushleft}
+
+So far we have taken a single grayscale image as input represented by n x m matrix in two dimensions. However in real world we often get colored or 3-dimensional images. How will we apply convolution on this image? We will use a 3 X 3 X 3 filter instead of a 3 X 3 filter. Let’s look at an example:
+
+\begin{itemize}
+  \item 6 X 6 X 3
+  \item 3 X 3 X 3
+\end{itemize}
+
+\begin{figure}
+  \caption{3D Convolution with a 3D Filter}
+  \includegraphics{3D-conv-fig-13.png}
+\end{figure}
+
+Since there are three channels in the input, the filter will consequently also have three channels. After convolution, the output shape is a 4 X 4 matrix feature map. So, the first element of the output is the sum of the element-wise product of the first 27 values from the input (9 values from each channel) and the 27 values from the filter. After that we convolve over the entire image.
+\par
+As mentioned earlier, instead of using one kernel, we could use different kernels to extract different features. How do we do that? Let’s say the first filter will detect vertical edges and the second filter will detect horizontal edges from the image. If we use multiple filters, the output dimension will change. So, instead of having a 4 X 4 output as in the above example, we would have a 4 X 4 X 2 output (if we have used 2 filters).
+\par
+Generalized dimensions can be given as:
+\begin{itemize}
+  \item Input: n X n X n \textsubscript{c}
+  \item Filter: f X f X n \textsubscript{c}
+  \item Padding: p
+  \item Stride: s
+\end{itemize}
+
+The output of this convolution would be:
+$$ [\frac{(n+2p-f)}{s+1} \times \frac{(n+2p-f)}{s+1} \times n_{c}^\prime] $$
+
+In this output, $n_c$ is the number of channels in the input and filter, while $ n_c^\prime $ is the number of filters.
+
+In a convolutional neural network, there are basically three types of layers:
+
+\begin{enumerate}
+  \item Convolution layer
+  \item Pooling layer
+  \item Fully connected layer
+\end{enumerate}
+
+Once we get an output after convolving over the entire image using a filter, we add a bias term to those outputs and finally apply an activation function to generate activations. This is one layer of a convolutional network . In our case, input image is (6 X 6 X 3) and filters are (3 X 3 X 3). These activations from layer 1 act as the input for layer 2, and so on. Clearly, the number of parameters in case of convolutional neural networks is independent of the size of the image. It essentially depends on the filter size. Suppose we have 10 filters, each of shape 3 X 3 X 3. It is easy to calculate the number of parameters:
+
+\begin{itemize}
+  \item Number of parameters for each filter: 3\textsuperscript{3} = 27
+  \item There will be a bias term for each filter, so total parameters per filter = 28
+  \item Since there are 10 filters, total parameters will be 28*10 = 280
+\end{itemize}

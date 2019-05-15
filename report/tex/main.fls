@@ -182,6 +182,9 @@ INPUT ../images/mat-fig-11.png
 INPUT ../images/max-pool-fig-12.png
 INPUT ../images/max-pool-fig-12.png
 INPUT ../images/max-pool-fig-12.png
+INPUT ../images/3D-conv-fig-13.png
+INPUT ../images/3D-conv-fig-13.png
+INPUT ../images/3D-conv-fig-13.png
 INPUT chapters/methodology/methodology.tex
 INPUT chapters/methodology/methodology.tex
 INPUT chapters/data/data.tex
@@ -204,5 +207,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb

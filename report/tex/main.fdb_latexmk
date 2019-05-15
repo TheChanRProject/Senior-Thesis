@@ -1,5 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1557827286 "main.tex" "main.pdf" "main" 1557827306
+["pdflatex"] 1557888778 "main.tex" "main.pdf" "main" 1557888782
+  "../images/3D-conv-fig-13.png" 1557818514 92447 fa9f7df07d376227d00297136979fba2 ""
   "../images/chroma-cqt.png" 1557814822 142083 7858304742dde5397d7ef31901e24307 ""
   "../images/cnn-fig-10.png" 1557818518 134351 3b67663e0e708cdfdd572db9dd5a61c6 ""
   "../images/conv-fig-8.png" 1557818518 102238 595cd17ccb47ef69409caaf5232296b7 ""
@@ -41,6 +42,7 @@
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1480098733 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1480098733 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1480098733 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1480098733 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb" 1480098733 22644 de44b1031364c5f57164f2249f1302c5 ""
   "/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -92,7 +94,7 @@
   "chapters/background/background.tex" 1557822356 5596 d5c7990fef558ccb1701ade547228dc0 ""
   "chapters/bibliography/bibliography.tex" 1557804564 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/classification-analysis/analysis.tex" 1557804516 43 28f162e8f41163d2e123c986348ca862 ""
-  "chapters/cnn/cnn.tex" 1557827306 8386 03f4086c56cd0f010f6d1e0901aa3b3e ""
+  "chapters/cnn/cnn.tex" 1557888778 11324 04d03ac401c49a9163730e413022d3ba ""
   "chapters/data/data.tex" 1557804504 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/data_preparation_processing/data_preprocessing.tex" 1557804490 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/future_steps/future_steps.tex" 1557804474 43 28f162e8f41163d2e123c986348ca862 ""
@@ -100,9 +102,9 @@
   "chapters/librosa/librosa.tex" 1557819504 9491 bcfd42464d8fca76d29acfcee7ab85f3 ""
   "chapters/methodology/methodology.tex" 1557804458 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/ragas/ragas.tex" 1557804098 5190 bfd8b5935999945616ee12daa9cf3b5b ""
-  "main.aux" 1557827288 581 beab4ebe5c272d7ff387c1739ff9126c ""
-  "main.tex" 1557825096 2024 ca2d1e7ab7fee6391674f1030298bc2a ""
+  "main.aux" 1557888780 690 0e3e9b66227a1bfac220be5d48bab63c ""
+  "main.tex" 1557888372 2104 0ae91fa3a52318bd8cc8d48496f8c0ce ""
   (generated)
-  "main.log"
   "main.pdf"
   "main.aux"
+  "main.log"
