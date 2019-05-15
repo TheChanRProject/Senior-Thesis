@@ -207,6 +207,9 @@ INPUT chapters/classification-analysis/analysis.tex
 INPUT ../images/results.png
 INPUT ../images/results.png
 INPUT ../images/results.png
+INPUT ../images/pred-table.png
+INPUT ../images/pred-table.png
+INPUT ../images/pred-table.png
 INPUT chapters/future_steps/future_steps.tex
 INPUT chapters/future_steps/future_steps.tex
 INPUT chapters/bibliography/bibliography.tex
