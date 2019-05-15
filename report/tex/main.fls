@@ -185,6 +185,9 @@ INPUT ../images/max-pool-fig-12.png
 INPUT ../images/3D-conv-fig-13.png
 INPUT ../images/3D-conv-fig-13.png
 INPUT ../images/3D-conv-fig-13.png
+INPUT ../images/complete-cnn.png
+INPUT ../images/complete-cnn.png
+INPUT ../images/complete-cnn.png
 INPUT chapters/methodology/methodology.tex
 INPUT chapters/methodology/methodology.tex
 INPUT chapters/data/data.tex

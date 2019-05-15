@@ -197,3 +197,20 @@ Once we get an output after convolving over the entire image using a filter, we 
   \item There will be a bias term for each filter, so total parameters per filter = 28
   \item Since there are 10 filters, total parameters will be 28*10 = 280
 \end{itemize}
+
+No matter how big the image is, the parameters only depend on the filter size. This is a powerful feature of CNNs.
+\par
+From the convolutional layer, we can do max pooling to create subsampling layer and can again do multiple convolutions and max pooling until we get a reasonable number of output numbers which can be fed to an Artificial Neural Network to learn.
+\par
+So here is what a full CNN would look like based on some of the examples we have used so far. In the figure, we also show notation for filter size, padding if used and the stride values.
+\begin{figure}
+  \caption{A Complete CNN Example}
+  \includegraphics{complete-cnn.png}
+\end{figure}
+
+There are a combination of convolution and pooling layers at the beginning, a few fully connected layers at the end and finally a softmax classifier to classify the input into various categories. There are a lot of hyperparameters in this network which we have to specify as well.
+\par
+Generally, we take the set of hyperparameters which have been used in proven research and they end up doing well. As seen in the above example, the height and width of the input shrinks as we go deeper into the network (from 32 X 32 to 5 X 5) and the number of channels increases (from 3 to 10).
+\par
+There are a number of hyperparameters that we can tweak while building a convolutional network.
+These include the number of filters, size of filters, stride to be used, padding, etc. We will look at each of these in detail later in this article. Just keep in mind that as we go deeper into the network, the size of the image shrinks whereas the number of channels usually increases.

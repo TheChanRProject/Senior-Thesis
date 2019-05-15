@@ -1,8 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1557888778 "main.tex" "main.pdf" "main" 1557888782
+["pdflatex"] 1557889122 "main.tex" "main.pdf" "main" 1557889125
   "../images/3D-conv-fig-13.png" 1557818514 92447 fa9f7df07d376227d00297136979fba2 ""
   "../images/chroma-cqt.png" 1557814822 142083 7858304742dde5397d7ef31901e24307 ""
   "../images/cnn-fig-10.png" 1557818518 134351 3b67663e0e708cdfdd572db9dd5a61c6 ""
+  "../images/complete-cnn.png" 1557889012 715659 c00d299ddc7b12f39400db702b702e86 ""
   "../images/conv-fig-8.png" 1557818518 102238 595cd17ccb47ef69409caaf5232296b7 ""
   "../images/edge-fig-1.png" 1557818520 13911 ee1070e184ce286cfecbb7b9bd300cea ""
   "../images/edge-fig-2.png" 1557818526 36205 9678302863fb249f20e21f4b52d0fbb9 ""
@@ -94,7 +95,7 @@
   "chapters/background/background.tex" 1557822356 5596 d5c7990fef558ccb1701ade547228dc0 ""
   "chapters/bibliography/bibliography.tex" 1557804564 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/classification-analysis/analysis.tex" 1557804516 43 28f162e8f41163d2e123c986348ca862 ""
-  "chapters/cnn/cnn.tex" 1557888778 11324 04d03ac401c49a9163730e413022d3ba ""
+  "chapters/cnn/cnn.tex" 1557889118 12953 0f5fc22d85d213faaa5d06fe2d91ff50 ""
   "chapters/data/data.tex" 1557804504 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/data_preparation_processing/data_preprocessing.tex" 1557804490 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/future_steps/future_steps.tex" 1557804474 43 28f162e8f41163d2e123c986348ca862 ""
@@ -102,7 +103,7 @@
   "chapters/librosa/librosa.tex" 1557819504 9491 bcfd42464d8fca76d29acfcee7ab85f3 ""
   "chapters/methodology/methodology.tex" 1557804458 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/ragas/ragas.tex" 1557804098 5190 bfd8b5935999945616ee12daa9cf3b5b ""
-  "main.aux" 1557888780 690 0e3e9b66227a1bfac220be5d48bab63c ""
+  "main.aux" 1557889124 790 0799bed15b5e0c2f78bafef19d7d1eff ""
   "main.tex" 1557888372 2104 0ae91fa3a52318bd8cc8d48496f8c0ce ""
   (generated)
   "main.pdf"
