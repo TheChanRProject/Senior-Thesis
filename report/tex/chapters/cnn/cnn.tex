@@ -162,7 +162,7 @@ So far we have taken a single grayscale image as input represented by n x m matr
 
 \begin{figure}
   \caption{3D Convolution with a 3D Filter}
-  \includegraphics{3D-conv-fig-13.png}
+  \includegraphics[width=130mm, scale=0.8]{3D-conv-fig-13.png}
 \end{figure}
 
 Since there are three channels in the input, the filter will consequently also have three channels. After convolution, the output shape is a 4 X 4 matrix feature map. So, the first element of the output is the sum of the element-wise product of the first 27 values from the input (9 values from each channel) and the 27 values from the filter. After that we convolve over the entire image.
@@ -203,9 +203,10 @@ No matter how big the image is, the parameters only depend on the filter size. T
 From the convolutional layer, we can do max pooling to create subsampling layer and can again do multiple convolutions and max pooling until we get a reasonable number of output numbers which can be fed to an Artificial Neural Network to learn.
 \par
 So here is what a full CNN would look like based on some of the examples we have used so far. In the figure, we also show notation for filter size, padding if used and the stride values.
+
 \begin{figure}
   \caption{A Complete CNN Example}
-  \includegraphics{complete-cnn.png}
+  \includegraphics[width=150mm, scale=0.8]{complete-cnn.png}
 \end{figure}
 
 There are a combination of convolution and pooling layers at the beginning, a few fully connected layers at the end and finally a softmax classifier to classify the input into various categories. There are a lot of hyperparameters in this network which we have to specify as well.
