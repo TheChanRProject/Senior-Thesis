@@ -147,3 +147,96 @@ for j in range(len(bhup_files)):
         plt.title(f"Chromagram of Bhup{j+1}_{k+1}")
         plt.savefig(f"data/chroma_files/bhup-chromas/bhup{j+1}/bhup{j+1}_{k+1}.png")
 \end{lstlisting}
+
+The figure below illustrates the file structure for the generated chromagrams as png files.
+
+\begin{figure}
+  \caption{File Structure for Stored Bhup and Bhairav STFT-Chromagram Images}
+  \includegraphics{bhairav-chroma-tree.png}
+  \includegraphics{bhup-chroma-tree.png}
+\end{figure}
+
+\begin{flushleft}
+  \textbf{Data Preparation for CNN Training}
+\end{flushleft}
+
+In order to have the images ready for a machine learning experiment with a convolutional neural network, I first needed to generate a csv file of labels corresponding to the raga of each recording. Since I had an original file structure comprising of all the images of all the ragas, building up labels for all the files became very trivial and the ragas were all in
+alphabetical order. The script below shows the process I used in pandas to build the miml\_labels\_2 csv file.
+
+\begin{lstlisting}
+import pandas as pd
+import os
+
+# Empty dictionary
+
+columnDict = {}
+
+# Getting all image files in one Python list
+
+fileList = os.listdir("data")
+print(len(fileList))
+
+columnDict['file_name'] = fileList
+
+print(columnDict)
+
+# Empty list to store labels
+
+labels = []
+
+# Range values calculated beforehand
+
+for i in range(202):
+  labels.append("bhairav")
+
+for i in range(183):
+  labels.append("bhup")
+
+for i in range(137):
+  labels.append("des")
+
+for i in range(258):
+  labels.append("yaman")
+
+print(len(labels))
+
+# Generating second column to store labels
+
+columnDict['raga'] = labels
+
+# Converting from a dictionary to a Pandas DataFrame
+
+df = pd.DataFrame.from_dict(columnDict)
+
+# Saving DataFrame as a Comma Separated Value (csv) file
+
+df.to_csv("csv/miml_labels_2.csv")
+
+\end{lstlisting}
+
+\begin{flushleft}
+  \textbf{CNN Preprocessing and Training with Tensorflow 2.0 and Keras on Google Colab}
+\end{flushleft}
+
+Now that I had my CSV file and image data, I moved over from my local environment to Google Colaboratory in order to make use of a free tier graphics processing unit (GPU) optimized for neural network training with ease offered by the Google Compute Engine (GCE) with a memory allocation of 12 GB RAM.
+\par
+In order to make this transition simple, I created another GitHub repository which contains 780 stft-chromagram images as well as the csv file pertaining to labels that correspond in order of the files. Since Git and several popular Python modules are already pre-installed in Google Colaboratory's Jupyter notebook interface, I easily cloned my repository into Colaboratory and changed the notebook's base directory to the repository's directory for ease of file reading. The next step is to build a convolutional neural network architecture.
+\par
+The resolution for each stft-chromagram is 432 X 288 pixels therefore I decided to add in more than just two convolutional layers in the architecture. The architecture I decided to use is 2 convolutional layers, a max pooling layer, another set of two convolutional layers, and then another max pooling layer and then a connection from the second max pooling layer to the hidden layer of 512 neurons and then a final connection from the hidden layer to an output layer of 4 neurons where the classification decision is made by the softmax activation function. All other layers have a rectified linear unit activation function. This architecture is shown in Tensorflow's 2.0 Keras module below.
+
+\begin{lstlisting}
+classifier = Sequential()
+classifier.add(Conv2D(32, (3, 3), padding='same', input_shape = (432, 288, 3), activation = 'relu'))
+classifier.add(Conv2D(32, (3, 3), activation = 'relu'))
+classifier.add(MaxPooling2D(pool_size = (2, 2)))
+classifier.add(Dropout(rate=1-0.25))
+classifier.add(Conv2D(64,(3,3), padding="same", activation="relu"))
+classifier.add(Conv2D(64, (3,3), activation="relu"))
+classifier.add(MaxPooling2D(pool_size=(2,2)))
+classifier.add(Dropout(rate=1-0.25))
+classifier.add(Flatten())
+classifier.add(Dense(units = 512, activation = 'relu'))
+classifier.add(Dropout(rate=1-0.5))
+classifier.add(Dense(units = 4, activation = 'softmax'))
+classifier.compile(optimizer = 'adam', loss = 'categorical_crossentropy', metrics = ['accuracy'])
+\end{lstlisting}
