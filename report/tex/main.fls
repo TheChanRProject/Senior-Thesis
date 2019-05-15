@@ -204,6 +204,9 @@ INPUT ../images/bhup-chroma-tree.png
 INPUT ../images/bhup-chroma-tree.png
 INPUT chapters/classification-analysis/analysis.tex
 INPUT chapters/classification-analysis/analysis.tex
+INPUT ../images/results.png
+INPUT ../images/results.png
+INPUT ../images/results.png
 INPUT chapters/future_steps/future_steps.tex
 INPUT chapters/future_steps/future_steps.tex
 INPUT chapters/bibliography/bibliography.tex
