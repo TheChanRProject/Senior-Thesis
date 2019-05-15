@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557910969 "main.tex" "main.pdf" "main" 1557910973
+["pdflatex"] 1557911889 "main.tex" "main.pdf" "main" 1557911893
   "../images/3D-conv-fig-13.png" 1557818514 92447 fa9f7df07d376227d00297136979fba2 ""
   "../images/audio-directory.png" 1557896896 153621 ea4f8902bca677d4f27cd8628c93e3f1 ""
   "../images/audio-directory2.png" 1557896904 34887 3555a9c3598ce36972cb3466e2b9d564 ""
@@ -102,11 +102,11 @@
   "chapters/future_steps/future_steps.tex" 1557804474 43 28f162e8f41163d2e123c986348ca862 ""
   "chapters/introduction/introduction.tex" 1557909396 4230 9cd73696c3a5a0bcf68418a9afa3dadd ""
   "chapters/librosa/librosa.tex" 1557910068 9667 c730cc0d9217719e6f6b2d48a5794255 ""
-  "chapters/methodology/methodology.tex" 1557908552 16110 291b642f17536644d2e8f1fa8b851fec ""
+  "chapters/methodology/methodology.tex" 1557911888 16132 6b548f780d18b9e4187881db7bdd2945 ""
   "chapters/ragas/ragas.tex" 1557909600 5334 6de8b98cd409df9f774dd1546e30a470 ""
-  "main.aux" 1557910972 1145 f52a9fa3c6c6711f9458124892e41f69 ""
+  "main.aux" 1557911892 1145 f52a9fa3c6c6711f9458124892e41f69 ""
   "main.tex" 1557908586 1842 348bba514c5b337c3513465afa11f7fb ""
   (generated)
+  "main.log"
   "main.aux"
   "main.pdf"
-  "main.log"
